@@ -7,7 +7,7 @@
   "license": "MIT",
 	"private": false,
 	"scripts": {
-    "dev": "parcel src/index.html src/**/*.html --public-url http://localhost:1234",
+    "dev": "parcel src/index.html src/**/*.html",
     "build": "parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
