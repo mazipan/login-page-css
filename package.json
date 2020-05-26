@@ -1,0 +1,17 @@
+{
+  "name": "login-page-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mazipan/login-page-css.git",
+  "author": "Irfan Maulana <https://mazipan.space/>",
+  "license": "MIT",
+	"private": false,
+	"scripts": {
+    "dev": "parcel src/index.html src/**/*.html --public-url http://localhost:1234",
+    "build": "parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
