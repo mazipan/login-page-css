@@ -23,8 +23,9 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/undraw_secure_login_pdn4.svg");
-  background-position: left;
+  background-image: url("../assets/undraw_secure_login_pdn4.svg");
+	background-position-x: right;
+	background-position-y: center;
   background-repeat: no-repeat;
   position: relative;
 }

@@ -7,7 +7,8 @@ footer{
 	align-items: center;
 	background: #fff;
 	padding: 1em;
-  box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 3;
 }
 
 footer a {
