@@ -1,17 +1,24 @@
 {
-  "name": "login-page-css",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:mazipan/login-page-css.git",
-  "author": "Irfan Maulana <https://mazipan.space/>",
-  "license": "MIT",
+	"name": "login-page-css",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:mazipan/login-page-css.git",
+	"author": "Irfan Maulana <https://mazipan.space/>",
+	"license": "MIT",
 	"private": false,
 	"scripts": {
-    "dev": "parcel src/index.html src/**/*.html",
-    "build": "parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "parcel": "^1.12.4"
-  }
+		"dev": "parcel src/index.html src/**/*.html",
+		"build": "rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"parcel": "^1.12.4",
+		"parcel-plugin-static-files-copy": "^2.3.1",
+		"rimraf": "^3.0.2"
+	},
+	"staticFiles": {
+		"staticPath": [
+			"src/assets"
+		]
+	}
 }
