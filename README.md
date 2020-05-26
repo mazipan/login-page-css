@@ -10,7 +10,10 @@ https://mazipan.github.io/login-page-css/
 
 ## Avalaible Template
 
-- Inspired by [Shopify on Dribble](https://dribbble.com/shots/3666951-Log-in-to-your-store), see [live page](https://mazipan.github.io/login-page-css/01-shopify/index.html)
+| Design Source | Live Demo | Screenshoot |
+|---|---|---|
+| [Shopify on Dribble](https://dribbble.com/shots/3666951-Log-in-to-your-store) |  [Demo](https://mazipan.github.io/login-page-css/01-shopify/index.html) | ![](screenshoots/01-shopify.png) |
+
 
 ## Credits
 
