@@ -10,11 +10,11 @@ https://mazipan.github.io/login-page-css/
 
 ## Avalaible Template
 
-| Design Source | Live Demo | Screenshoot |
-|---|---|---|
-| [Meg on Dribbble](https://dribbble.com/shots/3666951-Log-in-to-your-store) |  [Demo](https://mazipan.github.io/login-page-css/01-shopify/index.html) | ![](screenshoots/01-shopify.png) |
-| [Bukalapak Login Page](https://www.bukalapak.com/login) |  [Demo](https://mazipan.github.io/login-page-css/02-bukalapak/index.html) | ![](screenshoots/02-bukalapak.png) |
-| [Google Login Page](https://www.google.co.id/login) |  [Demo](https://mazipan.github.io/login-page-css/03-google/index.html) | ![](screenshoots/03-google.png) |
+| Design Source | Live Demo | Screenshoot | Slicer |
+|---|---|---|---|
+| [Meg on Dribbble](https://dribbble.com/shots/3666951-Log-in-to-your-store) |  [Demo](https://mazipan.github.io/login-page-css/01-shopify/index.html) | ![](screenshoots/01-shopify.png) | @mazipan |
+| [Bukalapak Login Page](https://www.bukalapak.com/login) |  [Demo](https://mazipan.github.io/login-page-css/02-bukalapak/index.html) | ![](screenshoots/02-bukalapak.png) | @mazipan |
+| [Google Login Page](https://www.google.co.id/login) |  [Demo](https://mazipan.github.io/login-page-css/03-google/index.html) | ![](screenshoots/03-google.png) | @josprima |
 
 
 ## Contribution
