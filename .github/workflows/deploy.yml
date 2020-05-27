@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - master-invalid
 
 jobs:
   deploy_gh_pages:
