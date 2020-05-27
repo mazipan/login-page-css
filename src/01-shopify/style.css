@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 16px; /* If you set different base font, you might need more tweak */
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -7,7 +7,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background-color: rgb(242, 245, 247);
-	color: #4D5068;
+  color: #4D5068;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,7 +47,7 @@ html {
 
 @media screen and (max-width: 640px) {
   .form-wrapper {
-		margin-top: 200px;
+     margin-top: 200px;
   }
 }
 
