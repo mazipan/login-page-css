@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 14px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -7,6 +7,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background-color: rgb(242, 245, 247);
+	color: #4D5068;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,21 +19,42 @@ html {
 }
 
 .content-body {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-image: url("https://mazipan.github.io/login-page-css/undraw_secure_login_pdn4.svg");
-	background-position-x: right;
+	background-position-x: center;
 	background-position-y: center;
-  background-repeat: no-repeat;
-  position: relative;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 1100px;
+}
+
+@media screen and (max-width: 640px) {
+  .content-body {
+		background-position-y: top;
+		background-size: 250px;
+		margin-bottom: 5em; /* tweak for footer fixed -- you don't need this */
+  }
 }
 
 .form-wrapper {
   width: 350px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  .form-wrapper {
+		margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-wrapper {
+		width: 90%;
+	}
 }
 
 .bg-white {
@@ -83,7 +105,7 @@ html {
 }
 
 .btn-submit {
-  background-color: #5460c0;
+  background-color: #6371C5;
   color: #fff;
   padding: .7em;
   border-radius: 5px;
@@ -97,10 +119,10 @@ html {
 .link-forgot{
 	position: absolute;
 	right: 10px;
-	margin-top: 13px;
+	margin-top: 1em;
 	font-size: .8rem;
 	text-decoration: none;
-	color: #5460c0;
+	color: #6371C5;
 	z-index: 2;
 }
 
@@ -110,13 +132,13 @@ html {
   padding: .7em;
   justify-content: center;
   text-decoration: none;
-  color: #000;
+	color: #4D5068;
   border: 1px solid #e5e7ec;
   border-radius: 5px;
   margin-bottom: 1em;
 }
 
 .link-about>a {
-  color: #000;
+	color: #4D5068;
   text-decoration: underline;
 }
