@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="robots" content="follow,index">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Open Source Login Page CSS</title>
+	<title>CSS Login Page Google</title>
 	<meta name="description" content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework">
 
 	<link rel="apple-touch-icon" sizes="57x57"
@@ -41,8 +41,8 @@
 	<meta name="msapplication-TileImage" content="https://mazipan.github.io/login-page-css/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#5460c0">
 
-	<link rel="stylesheet" href="./shared/normalize.css">
-	<link rel="stylesheet" href="./shared/additional.css">
+	<link rel="stylesheet" href="../shared/normalize.css">
+	<link rel="stylesheet" href="../shared/additional.css">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -57,39 +57,44 @@
   gtag('config', 'UA-25065548-2');
 </script>
 
+
 </head>
 
 <body>
-	<div class="body-content">
-		<div class="wrapper">
 
-			<a class="card" href="01-shopify/index.html">
-				<img src="../screenshoots/01-shopify.png" alt="Shopify" style="width:100%">
-				<div class="container">
-					<h4><b>Shopify Store Login</b></h4>
-					<p>Designed by Meg for Shopify</p>
-				</div>
-			</a>
-
-			<a class="card" href="02-bukalapak/index.html">
-				<img src="../screenshoots/02-bukalapak.png" alt="Bukalapak" style="width:100%">
-				<div class="container">
-					<h4><b>Bukalapak Login Page</b></h4>
-					<p>From Bukalapak Page</p>
-				</div>
-			</a>
-
-			<a class="card" href="03-google/index.html">
-				<img src="../screenshoots/03-google.png" alt="Google" style="width:100%">
-				<div class="container">
-					<h4><b>Google Login Page</b></h4>
-					<p>From Google Page</p>
-				</div>
-			</a>
-
-		</div>
+	<div class="logo-wrapper">
+		<img class="logo" alt="Logo" src="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png" />
 	</div>
 
+	<div class="content-body">
+		<div class="form-wrapper">
+			<div class="logo">
+				<img src="./google-logo.svg" alt="Google Logo">
+			</div>
+			<h1 class="heading text-center">Login</h1>
+			<h3 class="sub-heading text-center">Lanjutkan ke Gmail</h3>
+
+			<form>
+				<div class="field">
+					<input type="email" name="email" class="input" placeholder=" ">
+					<label for="email" class="label">Email</label>
+				</div>
+
+				<div class="forgot-button">
+					<a href="#">Lupa email?</a>
+				</div>
+
+				<div class="description-text">
+					<p>Bukan komputer Anda? Gunakan mode Tamu untuk login secara pribadi. <a href="#">Pelajari selengkapnya</a></p>
+				</div>
+
+				<div class="form-action">
+					<a href="#" class="btn secondary">Buat akun</a>
+					<button type="submit" class="btn primary">Berikutnya</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
 	<footer>
