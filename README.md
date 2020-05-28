@@ -41,7 +41,7 @@ Let's create an awesome open source css template together!
 ## Support me
 
 - Via [trakteer](https://trakteer.id/mazipan)
-- Direct support, [send me an email me](mailto:mazipanneh@gmail.com)
+- Direct support, [send me an email](mailto:mazipanneh@gmail.com)
 
 ---
 
