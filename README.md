@@ -2,6 +2,10 @@
 
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
 
+<p align="center">
+ <img src="src/assets/logo.png" width="100"/>
+</p>
+
 ![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master)
 
 ## Live
