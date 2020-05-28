@@ -9,8 +9,9 @@ If it's new design, please attach for mobile and desktop screenshoots.
 
 ## TODOS
 
-- [ ] Add in readme.md (if new design)
+- [ ] Add screenshots on `screenshoots` directory (if new design)
+- [ ] Update the list in `readme.md` (if new design)
 - [ ] Add in `src/index.html` (if new design)
 - [ ] Change the author text and link (if new design)
 
-Please help to review
+@mazipan please review
