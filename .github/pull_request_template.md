@@ -2,10 +2,10 @@ Developer: `@your_username`
 Description: summary and small descriptions from your pull request
 Design Source: if available
 
-## Screenshots
+## Screenshoots
 
-Attach screenshots if necessary, attach before and after if it's bug fixing.
-If it's new design, please attach mobile and desktop screenshots.
+Attach screenshoots if necessary, attach the before and the after if it's a bug fixing.
+If it's new design, please attach for mobile and desktop screenshoots.
 
 ## TODOS
 
