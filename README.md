@@ -38,6 +38,11 @@ Let's create an awesome open source css template together!
 
 - Dribbble
 
+## Support me
+
+- Via [trakteer](https://trakteer.id/mazipan)
+- Direct support, [send me an email me](mailto:mazipanneh@gmail.com)
+
 ---
 
 Crafted with ❤️ by [Irfan Maulana](https://mazipan.space/), © 2020 
