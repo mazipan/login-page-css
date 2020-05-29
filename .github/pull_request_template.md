@@ -15,3 +15,6 @@ If it's new design, please attach for mobile and desktop screenshoots.
 - [ ] Change the author text and link (if new design)
 
 @mazipan please review
+
+// If it's a bugfix, please mention the slicer on `readme.md`.
+
