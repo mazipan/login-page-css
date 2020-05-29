@@ -177,6 +177,7 @@ html {
 
 .divider {
   margin: 0px -16px;
+  border: 0;
   border-top: 7px solid #f7f7f7;
 }
 
