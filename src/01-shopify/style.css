@@ -1,5 +1,6 @@
 html {
-  font-size: 16px; /* If you set different base font, you might need more tweak */
+  font-size: 16px;
+  /* If you set different base font, you might need more tweak */
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -25,18 +26,19 @@ html {
   justify-content: center;
   flex-direction: column;
   background-image: url("https://mazipan.github.io/login-page-css/undraw_secure_login_pdn4.svg");
-	background-position-x: center;
-	background-position-y: center;
-	background-repeat: no-repeat;
-	position: relative;
-	background-size: 1100px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 1100px;
 }
 
 @media screen and (max-width: 640px) {
   .content-body {
-		background-position-y: top;
-		background-size: 250px;
-		margin-bottom: 5em; /* tweak for footer fixed -- you don't need this */
+    background-position-y: top;
+    background-size: 250px;
+    margin-bottom: 5em;
+    /* tweak for footer fixed -- you don't need this */
   }
 }
 
@@ -47,14 +49,14 @@ html {
 
 @media screen and (max-width: 640px) {
   .form-wrapper {
-     margin-top: 200px;
+    margin-top: 200px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .form-wrapper {
-		width: 90%;
-	}
+    width: 90%;
+  }
 }
 
 .bg-white {
@@ -86,8 +88,8 @@ html {
 .field-group {
   border: 0;
   padding: 0.35em 0 0.625em 0;
-	text-align: left;
-	position: relative;
+  text-align: left;
+  position: relative;
 }
 
 .label {
@@ -116,14 +118,14 @@ html {
   box-sizing: border-box;
 }
 
-.link-forgot{
-	position: absolute;
-	right: 10px;
-	margin-top: 1em;
-	font-size: .8rem;
-	text-decoration: none;
-	color: #6371C5;
-	z-index: 2;
+.link-forgot {
+  position: absolute;
+  right: 10px;
+  margin-top: 1em;
+  font-size: .8rem;
+  text-decoration: none;
+  color: #6371C5;
+  z-index: 2;
 }
 
 .link-register {
@@ -132,13 +134,13 @@ html {
   padding: .7em;
   justify-content: center;
   text-decoration: none;
-	color: #4D5068;
+  color: #4D5068;
   border: 1px solid #e5e7ec;
   border-radius: 5px;
   margin-bottom: 1em;
 }
 
 .link-about>a {
-	color: #4D5068;
+  color: #4D5068;
   text-decoration: underline;
 }

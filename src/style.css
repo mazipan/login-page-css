@@ -6,8 +6,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-	background-color: rgb(242, 245, 247);
-	color: #4D5068;
+  background-color: rgb(242, 245, 247);
+  color: #4D5068;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,55 +18,56 @@ html {
   margin: 0;
 }
 
-.body-content{
-	padding: 1em;
+.body-content {
+  padding: 1em;
 }
 
-.wrapper{
-	display: flex;
-	flex-flow: wrap;
+.wrapper {
+  display: flex;
+  flex-flow: wrap;
 }
 
 .card {
-	width: 30%;
-	margin: 1em;
-	text-decoration: none;
-	background: #fff;
+  width: 30%;
+  margin: 1em;
+  text-decoration: none;
+  background: #fff;
 
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 5px;
+  /* 5px rounded corners */
 }
 
 @media screen and (max-width: 640px) {
   .card {
-		width: 100%;
+    width: 100%;
   }
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Add some padding inside the card container */
-.card > .container {
+.card>.container {
   padding: 1em;
 }
 
-.card > .container > h4 {
-	color: #4a4a4a;
-	line-height: 1.5;
+.card>.container>h4 {
+  color: #4a4a4a;
+  line-height: 1.5;
 }
 
-.card > .container > p {
-	color: #959090;
-	padding-top: .5em;
+.card>.container>p {
+  color: #959090;
+  padding-top: .5em;
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
-.card > img {
-	border-radius: 5px 5px 0 0;
-	height: 200px;
-	object-fit: cover;
+.card>img {
+  border-radius: 5px 5px 0 0;
+  height: 200px;
+  object-fit: cover;
 }
