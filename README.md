@@ -20,6 +20,7 @@ https://mazipan.github.io/login-page-css/
 | [Bukalapak Login Page](https://www.bukalapak.com/login) |  [Demo](https://mazipan.github.io/login-page-css/02-bukalapak/index.html) | ![](screenshoots/02-bukalapak.png) | [@mazipan](https://github.com/mazipan/) |
 | [Google Login Page](https://www.google.co.id/login) |  [Demo](https://mazipan.github.io/login-page-css/03-google/index.html) | ![](screenshoots/03-google.png) | [@josprima](https://github.com/josprima/) |
 | [KitaBisa Login Page](https://kitabisa.com/login) |  [Demo](https://mazipan.github.io/login-page-css/04-kitabisa/index.html) | ![](screenshoots/04-kitabisa.png) | [@aslam97](https://github.com/aslam97/) |
+| [Mailchimp Login Page](https://login.mailchimp.com/) |  [Demo](https://mazipan.github.io/login-page-css/05-mailchimp/index.html) | ![](screenshoots/05-mailchimp.png) | [@mazipan](https://github.com/mazipan/) |
 
 
 ## Contribution
