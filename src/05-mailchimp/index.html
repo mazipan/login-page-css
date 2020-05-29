@@ -115,7 +115,7 @@
 	<!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
 
 	<script>
-		function tooglePassword () {
+		function a () {
 			var p = document.querySelector('#txt-password');
 			var t = document.querySelector('.label-text');
 			var ey = document.querySelector('.eye');
@@ -134,6 +134,8 @@
 				ey.classList.replace('is--hide', 'is--show');
 			}
 		}
+
+		window.tooglePassword = a;
 	</script>
 </body>
 
