@@ -1,0 +1,245 @@
+html {
+  font-size: 14px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+  color: #35405a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  margin: 1em 0;
+}
+
+.link {
+  font-size: 12px;
+  text-align: center;
+  color: #35405a;
+  text-decoration: underline;
+}
+
+.header {
+  height: 85px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+  width: 100vw;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.header__content {
+  width: 100%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo, .header__nav {
+  height: 48px;
+}
+
+.logo__link {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo__img {
+  height: 100%;
+  width: auto;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__item {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.nav__item:not(:last-child) {
+  border-right: 1px solid #f7f7f7;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #0064d2;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  padding-top: 85px;
+}
+
+.main__content-left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.33333%;
+          flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+
+.main__content-right {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.66667%;
+          flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+
+.form-login {
+  margin-top: 121px;
+}
+
+.form-login__inner {
+  padding: 0 66px;
+}
+
+.form-login__logo {
+  height: 80px;
+  width: auto;
+}
+
+.form-login__title {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 24px;
+  margin-top: 0;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-login__subtitle {
+  margin-bottom: 10px;
+}
+
+.form-login__button {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.field__group {
+  position: relative;
+}
+
+.field__input {
+  background-color: #fff;
+  border: 1px solid #c6cbda;
+  border-radius: 4px;
+  color: #8a93a7;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  outline: none;
+  padding: 12px 16px;
+  width: 100%;
+  margin-top: 0 !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.field__icon {
+  position: absolute;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.field__icon--right {
+  right: 15px;
+}
+
+.button {
+  border-radius: 24px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  outline: none;
+  padding: 12px 64px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.button--yellow {
+  background-color: #fdcb04;
+  color: #0064d2;
+}
+/*# sourceMappingURL=style.css.map */
