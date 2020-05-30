@@ -1,0 +1,316 @@
+$color-brand-yellow: #fdcb04;
+$color-brand-blue: #0064d2;
+$color-white: #fff;
+
+$color-neutral: #35405a;
+$color-neutral-1: #8a93a7;
+$color-neutral-2: #c6cbda;
+$color-neutral-3: #dee2ee;
+$color-neutral-4: #f7f7f7;
+
+html {
+  font-size: 14px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: $color-white;
+  color: $color-neutral;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  margin: 1em 0;
+}
+
+.link {
+  font-size: 12px;
+  text-align: center;
+  color: #35405a;
+  text-decoration: underline;
+}
+
+// Block Header
+.header {
+  height: 85px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.08);
+  width: 100vw;
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  &__content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    @media screen and (max-width: 960px) {
+      width: 90%;
+    }
+  }
+
+  &__logo,
+  &__nav {
+    height: 48px;
+  }
+}
+
+// Block Logo
+.logo {
+  &__link {
+    display: inline-block;
+    height: 100%;
+  }
+
+  &__img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+// Nav Block
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 24px;
+    height: 100%;
+
+    &:not(:last-child) {
+      border-right: 1px solid $color-neutral-4;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-brand-blue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+// Main
+.main {
+  background-color: $color-neutral-4;
+  min-height: 100vh;
+  padding-top: 85px;
+
+  &__content {
+    &-left {
+      display: none;
+
+      @media screen and (min-width: 960px) {
+        display: block;
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+      }
+    }
+
+    &-right {
+      @media screen and (min-width: 960px) {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+      }
+    }
+  }
+}
+
+// Card
+.card {
+  width: 100%;
+  background-color: #fff;
+  padding: 18px;
+  margin: 16px 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+// Benefits
+.benefits {
+  background: url("./bg-benefits.png");
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  position: relative;
+  height: 100%;
+
+  &__inner {
+    width: 393px;
+    margin: 41px 0 120px 163px;
+  }
+
+  &__mascot {
+    width: 266px;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+  }
+
+  &__card {
+    padding: 24px;
+  }
+
+  &__item {
+    display: flex;
+
+    &:not(:last-child) {
+      border-bottom: 0.5px solid $color-neutral-3;
+      margin-bottom: 1em;
+    }
+
+    &-left {
+      flex: 0 0 16.66667%;
+    }
+
+    &-right {
+      flex: 0 0 83.33333%;
+      padding-left: 8px;
+    }
+
+    &-icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    &-title {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    &-content {
+      margin: 8px 0 16px;
+    }
+  }
+}
+
+// Form Login
+.form-login {
+  margin-top: 121px;
+  &__inner {
+    padding: 0 66px;
+  }
+
+  &__header {
+  }
+
+  &__logo {
+    height: 80px;
+    width: auto;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    margin-top: 0;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+// Field
+.field {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &__group {
+    position: relative;
+  }
+
+  &__input {
+    background-color: #fff;
+    border: 1px solid $color-neutral-2;
+    border-radius: 4px;
+    color: $color-neutral-1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    outline: none;
+    padding: 12px 16px;
+    width: 100%;
+    margin-top: 0 !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+
+    &--right {
+      right: 15px;
+    }
+  }
+}
+
+.button {
+  border-radius: 24px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  outline: none;
+  padding: 12px 64px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none !important;
+  box-sizing: border-box;
+
+  &--yellow {
+    background-color: $color-brand-yellow;
+    color: $color-brand-blue;
+  }
+}
