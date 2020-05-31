@@ -1,7 +1,8 @@
 # login-page-css
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master)
 
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
 
@@ -9,7 +10,6 @@
  <img src="src/assets/logo.png" width="100"/>
 </p>
 
-![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master)
 
 ## Live
 
