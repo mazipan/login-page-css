@@ -14,11 +14,16 @@
 	"devDependencies": {
 		"parcel": "^1.12.4",
 		"parcel-plugin-static-files-copy": "^2.3.1",
-		"rimraf": "^3.0.2"
+		"rimraf": "^3.0.2",
+		"sass": "^1.26.7"
 	},
 	"staticFiles": {
 		"staticPath": [
 			"src/assets"
 		]
+	},
+	"dependencies": {
+		"autoprefixer": "^9.8.0",
+		"postcss-modules": "^2.0.0"
 	}
 }
