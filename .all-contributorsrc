@@ -11,7 +11,19 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4",
       "profile": "https://mazipan.space",
       "contributions": [
-        "ideas", "code", "review", "maintenance"
+        "ideas",
+        "code",
+        "review",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "josprima",
+      "name": "Josprima Sihombing",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29558962?v=4",
+      "profile": "https://github.com/josprima",
+      "contributions": [
+        "code"
       ]
     }
   ],
