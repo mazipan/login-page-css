@@ -42,10 +42,11 @@ a:hover {
 .content-right {
   height: 100%;
   flex-grow: 1;
-  background-image: url("./bg-mailchimp.jpeg");
-  background-size: cover;
+	background-image: url("./undraw_my_password_d6kg.svg");
+	background-position-y: 350px;
+	background-position-x: center;
+  background-size: 600px;
   background-repeat: no-repeat;
-  background-position: center;
   padding: 10% 5em;
   text-align: center;
 }
