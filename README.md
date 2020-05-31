@@ -1,6 +1,6 @@
 # login-page-css
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
@@ -62,7 +62,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://mazipan.space"><img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt=""/><br /><sub><b>Irfan Maulana</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=mazipan" title="Code">💻</a></td>
+    <td align="center"><a href="https://mazipan.space"><img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt=""/><br /><sub><b>Irfan Maulana</b></sub></a><br /><a href="#ideas-mazipan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/mazipan/login-page-css/commits?author=mazipan" title="Code">💻</a> <a href="https://github.com/mazipan/login-page-css/pulls?q=is%3Apr+reviewed-by%3Amazipan" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-mazipan" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/josprima"><img src="https://avatars2.githubusercontent.com/u/29558962?v=4" width="100px;" alt=""/><br /><sub><b>Josprima Sihombing</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=josprima" title="Code">💻</a></td>
   </tr>
 </table>
 
