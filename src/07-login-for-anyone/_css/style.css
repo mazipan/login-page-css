@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+		
+/* ###################### PRÉ-DEFINIÇÕES ###################### */
+
+* {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	border:none;
+	outline:none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+	
+body {
+	background-color: #ecf0f1;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ###################### CABEÇALHO ###################### */
+
+#cabecalho {
+	background-color: #27ae60;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 210px;
+	padding: 10px;		
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.logo_cabecalho {
+	margin: 5px 0;
+	float: left;
+}
+
+.nome_da_equipe {
+	margin: 45px 40px;
+	float: left;
+	color: #ecf0f1;
+}
+
+.nome_da_equipe h1 {
+	font-size: 40px;
+}
+
+.nome_da_equipe h2 {
+	font-size: 30px;
+}
+
+/* ###################### MENU ###################### */
+	
+#menu {
+	width: 100%;
+	background-color: #2ecc71;
+	float: left;
+	
+}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0px 20px;
+	padding: 10px;
+}
+
+#menu ul li:hover {
+	background-color: #27ae60;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #ecf0f1;
+	font-size: 20px;
+}
+
+/* ###################### CONTEÚDO ###################### */
+
+#img_noticias {
+	margin: 10px 0;
+}
+
+/* ###################### RODAPÉ ###################### */
+
+#rodape {
+    width: 100%;
+    float: left;
+}
+
+/* ########### PARTE DE CIMA DO RODAPÉ ########### */
+
+.rodape_de_cima {
+    background-color: #e74c3c;
+    width: 100%;
+    padding: 5%;
+    float: left;
+}
+
+.block_rodape {
+    background-position: 50% 50%;
+    margin: 2%;
+    padding: 2% 5%; 
+    float: left;
+    width: 100%;
+    transition: 1s;
+    border-radius: 7px;
+}
+
+.block_rodape:hover {
+    background-color: #c0392b;
+	transition: 1s;
+}
+
+.titulo_block_rodape {    
+    font-size: 25px;
+    color: #ecf0f1;
+	text-align: center;
+}
+
+.p_block_rodape b {
+	font-size: 18px;
+}
+
+.p_block_rodape {
+    font-size: 15px;
+    color: #ecf0f1;
+}
+
+.bloco_contato {
+	float: left;
+	color: #ecf0f1;
+	margin: 10px;
+}
+
+.bloco_contato i {
+	float: left;
+}		
+
+.bloco_contato p {
+	float: left;
+	margin: 2px 0 0 5px;
+}
+
+.bloco_contato .p_redes_sociais {
+	float: left;
+	margin: 15px 0 0 5px;
+}
+
+.bloco_contato .img_redes_sociais {
+	float: left;
+	width: 50px;
+}
+
+/* ########### PARTE DE BAIXO DO RODAPÉ ########### */
+
+.rodape_de_baixo {
+    background-color: #c0392b;
+    padding: 5%;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    color: #ecf0f1;
+}
+
+.MyGithub {
+    color: #fff;
+}
+
+/* ############### RESOLUÇÃO DE 768PX ############## */
+
+@media screen and (min-width: 768px) {
+    
+/* ALTERAÇÃO DO FOOTER PARTE DE CIMA */
+
+    .block_rodape {
+        width: 45%;
+    }
+
+    .titulo_rodape {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 0 5% 0;
+    }
+
+/* ALTERAÇÃO DO FOOTER PARTE DE BAIXO */
+
+    .rodape_de_baixo {
+        padding: 3%;
+    }
+
+}
+
+/* ############### RESOLUÇÃO DE 960PX ############## */
+
+@media screen and (min-width: 960px) {
+    
+	#img_noticias {
+		margin: 10px 0 10px 7%;
+	}
+
+	/* ALTERAÇÃO DO FOOTER PARTE DE CIMA */
+
+    .block_rodape {
+        width: 29%;
+    }
+
+    .titulo_rodape {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 0 2% 0;
+    }
+
+	/* ALTERAÇÃO DO FOOTER PARTE DE BAIXO */
+
+    .rodape_de_baixo {
+        padding: 2%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+	#img_noticias {
+		margin: 10px 0 10px 10%;
+	}
+
+}
+
+@media screen and (min-width: 1240px) {
+    
+	#img_noticias {
+		margin: 10px 0 10px 20%;
+	}
+
+}
