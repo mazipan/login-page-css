@@ -3,7 +3,6 @@ html {
   word-spacing: 1px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #f7f7f7;
   color: #241c15;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
@@ -42,7 +41,8 @@ a:hover {
 .content-right {
   height: 100%;
   flex-grow: 1;
-	background-image: url("./undraw_my_password_d6kg.svg");
+  background-image: url("./undraw_my_password_d6kg.svg");
+  background-color: #f7f7f7;
 	background-position-y: 350px;
 	background-position-x: center;
   background-size: 600px;
