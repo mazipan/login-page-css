@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Login Page Paypal</title>
+
+    <link rel="stylesheet" href="../shared/normalize.css">
+    <link rel="stylesheet" href="../shared/additional.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="paypal-logo paypal-logo-long">
+                <center><img src="../assets/logo.png" style="height: 50px;"></center>
+            </p>
+        </header>
+        <div class="textInput" id="login_emaildiv">
+            <div class="fieldWrapper">
+                <label for="email" class="fieldLabel">Email</label>
+                <input id="email" name="login_email" type="email" class="hasHelp  validateEmpty " required="required"
+                    aria-required="true" value="" autocomplete="off" placeholder="Email or mobile number">
+            </div>
+        </div>
+        <div class="actions actionsSpaced"><button class="button actionContinue" type="submit" id="btnLogin"
+                name="btnLogin" value="Login">Next</button></div>
+        <hr class="hr-text" data-content="or">
+        <a href="#" class="button secondary" id="createAccount">Sign Up</a>
+    </div>
+
+
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer>
+        <a href="/login-page-css/">
+            Back to Home
+        </a>
+        <span class="author">
+            Crafted with ❤️ by <a href="https://ini.space/fadil" rel="noopener noreferrer" target="_blank">Muhammad
+                Rayhan Fadillah</a>, © 2020
+        </span>
+        <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank">
+            Github Repo
+        </a>
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+</body>
+
+</html>
