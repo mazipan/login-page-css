@@ -1,7 +1,7 @@
 # login-page-css
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master)
 
@@ -67,6 +67,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://mazipan.space"><img src="https://avatars0.githubusercontent.com/u/7221389?v=4" width="100px;" alt=""/><br /><sub><b>Irfan Maulana</b></sub></a><br /><a href="#ideas-mazipan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/mazipan/login-page-css/commits?author=mazipan" title="Code">💻</a> <a href="https://github.com/mazipan/login-page-css/pulls?q=is%3Apr+reviewed-by%3Amazipan" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-mazipan" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/josprima"><img src="https://avatars2.githubusercontent.com/u/29558962?v=4" width="100px;" alt=""/><br /><sub><b>Josprima Sihombing</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=josprima" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hardi-dev"><img src="https://avatars0.githubusercontent.com/u/9802488?v=4" width="100px;" alt=""/><br /><sub><b>Hardiansa</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=hardi-dev" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Fadil3"><img src="https://avatars2.githubusercontent.com/u/55126764?v=4" width="100px;" alt=""/><br /><sub><b>Fadil3</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=Fadil3" title="Code">💻</a></td>
   </tr>
 </table>
 
