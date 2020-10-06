@@ -1,7 +1,7 @@
 # login-page-css
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master)
 
@@ -70,6 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Fadil3"><img src="https://avatars2.githubusercontent.com/u/55126764?v=4" width="100px;" alt=""/><br /><sub><b>Fadil3</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=Fadil3" title="Code">💻</a></td>
     <td align="center"><a href="http://aslam.tech"><img src="https://avatars1.githubusercontent.com/u/25027592?v=4" width="100px;" alt=""/><br /><sub><b>Aslam</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=Aslam97" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dennib"><img src="https://avatars2.githubusercontent.com/u/13068594?v=4" width="100px;" alt=""/><br /><sub><b>Denni Bevilacqua</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/issues?q=author%3Adennib" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://hizbe.dev"><img src="https://avatars2.githubusercontent.com/u/37175249?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Hizbullah</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/issues?q=author%3Amuh-hizbe" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
