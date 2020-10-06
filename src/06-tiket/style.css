@@ -244,7 +244,13 @@ p {
 }
 
 .form-login {
-  margin-top: 121px;
+  margin-top: 21px;
+}
+
+@media screen and (min-width: 960px) {
+  .form-login {
+    margin-top: 121px;
+  }
 }
 
 .form-login__inner {
