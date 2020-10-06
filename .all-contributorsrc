@@ -52,6 +52,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dennib",
+      "name": "Denni Bevilacqua",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13068594?v=4",
+      "profile": "https://github.com/dennib",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
