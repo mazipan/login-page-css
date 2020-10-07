@@ -1,0 +1,134 @@
+@import './variables.css';
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    width: 980px;
+}
+
+@media screen and (max-width: 960px) {
+    .main {
+        padding: 0 5px;
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+.box-left {
+    box-sizing: border-box;
+    padding: 54px 0 16px;
+    width: 580px;
+    margin-right: 32px;
+}
+
+@media screen and (max-width: 960px) {
+    .box-left {
+        display: none;
+    }
+}
+
+.box-left > h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.box-right {
+    width: 396px;
+}
+
+@media screen and (max-width: 960px) {
+    .box-right {
+        width: auto;
+    }
+}
+
+.card-form-login {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    padding: 15px 15px 24px;
+}
+
+.card {
+    height: 456px;
+    width: 396px;
+    margin: 40px 0 0;
+}
+
+@media screen and (max-width: 960px) {
+    .card {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+.mobile-logo {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.input {
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 14px 16px;
+    appearance: none;
+    width: 100%;
+}
+
+.input::-webkit-input-placeholder {
+    color: #878a91;
+}
+
+.input:focus::-webkit-input-placeholder {
+    color: #a8abb1;
+}
+
+.input:focus {
+    outline: none !important;
+    border-color: #4e9bf6;
+    -webkit-box-shadow: 0 0 2px 0 #4e9bf6;
+    box-shadow: 0 0 2px 0 #4e9bf6;
+}
+
+.forget-password {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.line-slicer {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+.reg-page {
+    margin-top: 28px;    
+    font-size: 14px;
+}
