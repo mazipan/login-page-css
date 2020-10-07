@@ -1,5 +1,9 @@
 @import './variables.css';
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f0f2f5;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
@@ -17,11 +21,25 @@ body {
     width: 980px;
 }
 
+@media screen and (max-width: 960px) {
+    .main {
+        padding: 0 5px;
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
 .box-left {
     box-sizing: border-box;
     padding: 54px 0 16px;
     width: 580px;
     margin-right: 32px;
+}
+
+@media screen and (max-width: 960px) {
+    .box-left {
+        display: none;
+    }
 }
 
 .box-left > h2 {
@@ -33,6 +51,12 @@ body {
 
 .box-right {
     width: 396px;
+}
+
+@media screen and (max-width: 960px) {
+    .box-right {
+        width: auto;
+    }
 }
 
 .card-form-login {
@@ -48,6 +72,25 @@ body {
     height: 456px;
     width: 396px;
     margin: 40px 0 0;
+}
+
+@media screen and (max-width: 960px) {
+    .card {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+.mobile-logo {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .input {
