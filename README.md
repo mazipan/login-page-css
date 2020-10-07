@@ -27,6 +27,7 @@ https://mazipan.github.io/login-page-css/
 | [Mailchimp Login Page](https://login.mailchimp.com/) |  [Demo](https://mazipan.github.io/login-page-css/05-mailchimp/index.html) | ![](screenshoots/05-mailchimp.png) | [@mazipan](https://github.com/mazipan/) |
 | [Tiket Login Page](https://tix.tiket.com/login) |  [Demo](https://mazipan.github.io/login-page-css/06-tiket/index.html) | ![](screenshoots/06-tiket.png) | [@hardi-dev](https://github.com/hardi-dev/) |
 | [Paypal Login Page](https://www.paypal.com/en/signin) |  [Demo](https://mazipan.github.io/login-page-css/07-paypal/index.html) | ![](screenshoots/07-paypal.png) | [@Fadil3](https://github.com/Fadil3/) |
+| [Facebook Login Page](https://web.facebook.com/?_rdc=1&_rdr) |  [Demo](https://mazipan.github.io/login-page-css/08-facebook/index.html) | ![](screenshoots/08-facebook.png) | [@muh-hizbe](https://github.com/muh-hizbe/) |
 
 
 ## Contribution
