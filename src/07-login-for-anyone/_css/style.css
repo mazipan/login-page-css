@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 		
-/* ###################### PRÉ-DEFINIÇÕES ###################### */
+/* ###################### Basic Definitions ###################### */
 
 * {
 	margin:0;
@@ -34,9 +34,9 @@ img {
 	max-width: 100%;
 }
 
-/* ###################### CABEÇALHO ###################### */
+/* ###################### HEADER ###################### */
 
-#cabecalho {
+#header {
 	background-color: #27ae60;
 	display: block;
 	float: left;
@@ -46,22 +46,22 @@ img {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
-.logo_cabecalho {
+.logo_header {
 	margin: 5px 0;
 	float: left;
 }
 
-.nome_da_equipe {
+.equip_name {
 	margin: 45px 40px;
 	float: left;
 	color: #ecf0f1;
 }
 
-.nome_da_equipe h1 {
+.equip_name h1 {
 	font-size: 40px;
 }
 
-.nome_da_equipe h2 {
+.equip_name h2 {
 	font-size: 30px;
 }
 
@@ -91,29 +91,29 @@ img {
 	font-size: 20px;
 }
 
-/* ###################### CONTEÚDO ###################### */
+/* ###################### Content ###################### */
 
-#img_noticias {
+#img_notices {
 	margin: 10px 0;
 }
 
-/* ###################### RODAPÉ ###################### */
+/* ###################### Footer ###################### */
 
-#rodape {
+#footer {
     width: 100%;
     float: left;
 }
 
-/* ########### PARTE DE CIMA DO RODAPÉ ########### */
+/* ########### Footer Top ########### */
 
-.rodape_de_cima {
+.footer_top {
     background-color: #e74c3c;
     width: 100%;
     padding: 5%;
     float: left;
 }
 
-.block_rodape {
+.footer_box {
     background-position: 50% 50%;
     margin: 2%;
     padding: 2% 5%; 
@@ -123,54 +123,54 @@ img {
     border-radius: 7px;
 }
 
-.block_rodape:hover {
+.footer_box:hover {
     background-color: #c0392b;
 	transition: 1s;
 }
 
-.titulo_block_rodape {    
+.footer_title_box {    
     font-size: 25px;
     color: #ecf0f1;
 	text-align: center;
 }
 
-.p_block_rodape b {
+.footer_p_box b {
 	font-size: 18px;
 }
 
-.p_block_rodape {
+.footer_p_box {
     font-size: 15px;
     color: #ecf0f1;
 }
 
-.bloco_contato {
+.contact_box {
 	float: left;
 	color: #ecf0f1;
 	margin: 10px;
 }
 
-.bloco_contato i {
+.contact_box i {
 	float: left;
 }		
 
-.bloco_contato p {
+.contact_box p {
 	float: left;
 	margin: 2px 0 0 5px;
 }
 
-.bloco_contato .p_redes_sociais {
+.contact_box .p_social_networks {
 	float: left;
 	margin: 15px 0 0 5px;
 }
 
-.bloco_contato .img_redes_sociais {
+.contact_box .img_social_networks {
 	float: left;
 	width: 50px;
 }
 
-/* ########### PARTE DE BAIXO DO RODAPÉ ########### */
+/* ########### Footer Bottom ########### */
 
-.rodape_de_baixo {
+.footer_bottom {
     background-color: #c0392b;
     padding: 5%;
     float: left;
@@ -186,55 +186,55 @@ img {
     color: #fff;
 }
 
-/* ############### RESOLUÇÃO DE 768PX ############## */
+/* ############### Resolution 768PX ############## */
 
 @media screen and (min-width: 768px) {
     
-/* ALTERAÇÃO DO FOOTER PARTE DE CIMA */
+/* Change of footer top */
 
-    .block_rodape {
+    .footer_box {
         width: 45%;
     }
 
-    .titulo_rodape {
+    .footer_title {
         color: #fff;
         font-size: 30px;
         text-align: center;
         padding: 0 0 5% 0;
     }
 
-/* ALTERAÇÃO DO FOOTER PARTE DE BAIXO */
+/* Change of footer bottom */
 
-    .rodape_de_baixo {
+    .footer_bottom {
         padding: 3%;
     }
 
 }
 
-/* ############### RESOLUÇÃO DE 960PX ############## */
+/* ############### Resolution 960PX ############## */
 
 @media screen and (min-width: 960px) {
     
-	#img_noticias {
+	#img_notices {
 		margin: 10px 0 10px 7%;
 	}
 
-	/* ALTERAÇÃO DO FOOTER PARTE DE CIMA */
+	/* change of footer top */
 
-    .block_rodape {
+    .footer_box {
         width: 29%;
     }
 
-    .titulo_rodape {
+    .footer_title {
         color: #fff;
         font-size: 30px;
         text-align: center;
         padding: 0 0 2% 0;
     }
 
-	/* ALTERAÇÃO DO FOOTER PARTE DE BAIXO */
+	/* Change of footer bottom */
 
-    .rodape_de_baixo {
+    .footer_bottom {
         padding: 2%;
     }
 
@@ -242,7 +242,7 @@ img {
 
 @media screen and (min-width: 1024px) {
     
-	#img_noticias {
+	#img_notices {
 		margin: 10px 0 10px 10%;
 	}
 
@@ -250,7 +250,7 @@ img {
 
 @media screen and (min-width: 1240px) {
     
-	#img_noticias {
+	#img_notices {
 		margin: 10px 0 10px 20%;
 	}
 
