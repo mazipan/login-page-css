@@ -1,0 +1,39 @@
+
+@media all and (max-width: 550px) {
+.container{
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 42px;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    border: 1px solid #eaeced;
+}
+}
+
+@media all and (max-width: 480px) {
+    .container{
+        margin: 0 auto;
+        margin-top: 120px;
+        padding: 42px;
+        justify-content: center;
+        border-radius: 5px;
+        width: 250px;
+        border: 1px solid #eaeced;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .container{
+        margin: 0 auto;
+        margin-top: 120px;
+        padding: 42px;
+        justify-content: center;
+        border-radius: 5px;
+        width: 200px;
+        border: 1px solid #eaeced;
+    }
+    .textInput input, .textInput textarea {
+        font-size: 0.8em;
+    }
+}
