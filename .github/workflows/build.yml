@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2s
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
           fetch-depth: 0
