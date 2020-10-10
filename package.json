@@ -7,11 +7,16 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
+		"cz": "cz",
 		"dev": "parcel src/index.html src/**/*.html",
-		"build": "rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
+		"build": "cross-env NODE_ENV=production rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^3.0.0",
+		"commitizen": "^4.2.1",
+		"cross-env": "^7.0.2",
+		"cz-conventional-changelog": "^3.3.0",
 		"parcel": "^1.12.4",
 		"parcel-plugin-static-files-copy": "^2.3.1",
 		"rimraf": "^3.0.2",
@@ -25,5 +30,10 @@
 	"dependencies": {
 		"autoprefixer": "^9.8.0",
 		"postcss-modules": "^2.0.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }
