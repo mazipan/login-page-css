@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+		
+/* ###################### Basic Definitions ###################### */
+
+* {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	border:none;
+	outline:none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+	
+body {
+	background-color: #ecf0f1;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ###################### HEADER ###################### */
+
+#header {
+	background-color: #27ae60;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 210px;
+	padding: 10px;		
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.logo_header {
+	margin: 5px 0;
+	float: left;
+}
+
+.equip_name {
+	margin: 45px 40px;
+	float: left;
+	color: #ecf0f1;
+}
+
+.equip_name h1 {
+	font-size: 40px;
+}
+
+.equip_name h2 {
+	font-size: 30px;
+}
+
+/* ###################### MENU ###################### */
+	
+#menu {
+	width: 100%;
+	background-color: #2ecc71;
+	float: left;
+	
+}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0px 20px;
+	padding: 10px;
+}
+
+#menu ul li:hover {
+	background-color: #27ae60;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #ecf0f1;
+	font-size: 20px;
+}
+
+/* ###################### Content ###################### */
+
+#img_notices {
+	margin: 10px 0;
+}
+
+/* ###################### Footer ###################### */
+
+#footer {
+    width: 100%;
+    float: left;
+}
+
+/* ########### Footer Top ########### */
+
+.footer_top {
+    background-color: #e74c3c;
+    width: 100%;
+    padding: 5%;
+    float: left;
+}
+
+.footer_box {
+    background-position: 50% 50%;
+    margin: 2%;
+    padding: 2% 5%; 
+    float: left;
+    width: 100%;
+    transition: 1s;
+    border-radius: 7px;
+}
+
+.footer_box:hover {
+    background-color: #c0392b;
+	transition: 1s;
+}
+
+.footer_title_box {    
+    font-size: 25px;
+    color: #ecf0f1;
+	text-align: center;
+}
+
+.footer_p_box b {
+	font-size: 18px;
+}
+
+.footer_p_box {
+    font-size: 15px;
+    color: #ecf0f1;
+}
+
+.contact_box {
+	float: left;
+	color: #ecf0f1;
+	margin: 10px;
+}
+
+.contact_box i {
+	float: left;
+}		
+
+.contact_box p {
+	float: left;
+	margin: 2px 0 0 5px;
+}
+
+.contact_box .p_social_networks {
+	float: left;
+	margin: 15px 0 0 5px;
+}
+
+.contact_box .img_social_networks {
+	float: left;
+	width: 50px;
+}
+
+/* ########### Footer Bottom ########### */
+
+.footer_bottom {
+    background-color: #c0392b;
+    padding: 5%;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    color: #ecf0f1;
+}
+
+.MyGithub {
+    color: #fff;
+}
+
+/* ############### Resolution 768PX ############## */
+
+@media screen and (min-width: 768px) {
+    
+/* Change of footer top */
+
+    .footer_box {
+        width: 45%;
+    }
+
+    .footer_title {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 0 5% 0;
+    }
+
+/* Change of footer bottom */
+
+    .footer_bottom {
+        padding: 3%;
+    }
+
+}
+
+/* ############### Resolution 960PX ############## */
+
+@media screen and (min-width: 960px) {
+    
+	#img_notices {
+		margin: 10px 0 10px 7%;
+	}
+
+	/* change of footer top */
+
+    .footer_box {
+        width: 29%;
+    }
+
+    .footer_title {
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        padding: 0 0 2% 0;
+    }
+
+	/* Change of footer bottom */
+
+    .footer_bottom {
+        padding: 2%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+	#img_notices {
+		margin: 10px 0 10px 10%;
+	}
+
+}
+
+@media screen and (min-width: 1240px) {
+    
+	#img_notices {
+		margin: 10px 0 10px 20%;
+	}
+
+}
