@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"cz": "cz",
+		"commit": "cz",
 		"dev": "parcel src/index.html src/**/*.html",
 		"build": "cross-env NODE_ENV=production rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
 		"test": "echo \"Error: no test specified\" && exit 1"
