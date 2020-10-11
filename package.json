@@ -7,23 +7,37 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
+		"cz": "cz",
 		"dev": "parcel src/index.html src/**/*.html",
-		"build": "rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
+		"build": "cross-env NODE_ENV=production rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^3.0.0",
+		"autoprefixer": "^9.8.6",
+		"commitizen": "^4.2.1",
+		"cross-env": "^7.0.2",
+		"cz-conventional-changelog": "^3.3.0",
+		"husky": "^4.3.0",
 		"parcel": "^1.12.4",
-		"parcel-plugin-static-files-copy": "^2.3.1",
+		"parcel-plugin-static-files-copy": "^2.5.0",
+		"postcss-modules": "^2.0.0",
 		"rimraf": "^3.0.2",
-		"sass": "^1.26.7"
+		"sass": "^1.27.0"
 	},
 	"staticFiles": {
 		"staticPath": [
 			"src/assets"
 		]
 	},
-	"dependencies": {
-		"autoprefixer": "^9.8.0",
-		"postcss-modules": "^2.0.0"
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+		}
 	}
 }
