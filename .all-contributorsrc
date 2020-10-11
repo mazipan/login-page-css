@@ -2,9 +2,9 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 64,
-  "commit": false,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-green.svg)](#contributors)",
+  "imageSize": 48,
+  "commit": "angular",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-brightgreen.svg)](#contributors)",
   "contributors": [
     {
       "login": "mazipan",
