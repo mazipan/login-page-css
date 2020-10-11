@@ -4,6 +4,7 @@
   ],
   "imageSize": 64,
   "commit": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-green.svg)](#contributors)",
   "contributors": [
     {
       "login": "mazipan",
