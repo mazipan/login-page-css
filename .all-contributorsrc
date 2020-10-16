@@ -2,8 +2,9 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
-  "commit": false,
+  "imageSize": 48,
+  "commit": "angular",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-brightgreen.svg)](#contributors)",
   "contributors": [
     {
       "login": "mazipan",
@@ -11,10 +12,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4",
       "profile": "https://mazipan.space",
       "contributions": [
-        "ideas",
         "code",
-        "review",
-        "maintenance"
+        "review"
       ]
     },
     {
@@ -68,11 +67,20 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/37175249?v=4",
       "profile": "http://hizbe.dev",
       "contributions": [
-        "bug"
+        "code"
+      ]
+    },
+    {
+      "login": "naufaldi",
+      "name": "Naufaldi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13159420?v=4",
+      "profile": "http://kureview.web.id",
+      "contributions": [
+        "code"
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 4,
   "projectName": "login-page-css",
   "projectOwner": "mazipan",
   "repoType": "github",

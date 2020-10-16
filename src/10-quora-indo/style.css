@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-size: 13px;
+  color: #949494;
+  overflow: hidden;
+  line-height: 1.4;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-betweeen {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+  background-color: #eee;
+  font-size: 0.938rem;
+  min-height: 2rem;
+  padding: 0.188rem 0.5rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
+          box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
+  width: 100%;
+}
+
+input::-webkit-input-placeholder {
+  color: #949494;
+}
+
+input:-ms-input-placeholder {
+  color: #949494;
+}
+
+input::-ms-input-placeholder {
+  color: #949494;
+}
+
+input::placeholder {
+  color: #949494;
+}
+
+.bg-img {
+  background-image: url("background-img.jpg");
+  background-size: cover;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.login-page {
+  width: 100%;
+}
+
+.login__caption {
+  font-size: 0.813;
+}
+
+.login__url {
+  color: #2b6dad;
+  text-decoration: none;
+}
+
+.login__url:hover {
+  text-decoration: underline;
+}
+
+.login__url--forgot {
+  color: #949494;
+}
+
+.login__social {
+  border-right: 1px solid #e6e6e6;
+  padding-right: 1.5rem;
+}
+
+.login__input {
+  padding-left: 1.5rem;
+}
+
+.login__input--email {
+  margin-bottom: 1.5rem;
+}
+
+.login__input--password {
+  margin-bottom: 0.5rem;
+}
+
+.login__label {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.login__submit {
+  background-color: #3e78ad;
+  border: 1px solid #3e78ad;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
+          box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
+  padding: 0.25rem 0.438rem;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 0.938rem;
+}
+
+.login__submit:hover {
+  opacity: 0.7;
+}
+
+.login__footer {
+  background-color: #fafafa;
+  border-top: 1px solid #e2e2e2;
+  padding: 1rem;
+}
+
+.modal-quora {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 650px;
+          flex: 0 0 650px;
+  margin: 0 auto;
+  margin-bottom: 5.5rem;
+  border: 1px solid #e2e2e2;
+  -webkit-box-shadow: 0 0 5px #888;
+          box-shadow: 0 0 5px #888;
+}
+
+.modal-quora__body {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.modal-quora__footer {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-top: 1px solid #e2e2e2;
+}
+
+.footer__url {
+  color: #949494;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer__url:hover {
+  text-decoration: underline;
+}
+
+.logo__caption {
+  font-size: 1.188rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 3.75rem;
+}
+
+.logo__img {
+  height: 82px;
+}
+
+.btn {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn--facebook {
+  background-color: #507cc0;
+}
+
+.btn--google {
+  background-color: #df4930;
+}
+
+.btn__icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
