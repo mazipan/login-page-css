@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Dropbox</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../shared/normalize.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="dropbox-navbar">
+      <div class="dropbox-navbar__container flex items-center max-w-xl mx-auto justify-center">
+        <button class="dropbox-navbar__button">Try Dropbox Business</button>
+        <a href="#" class="flex dropbox-navbar__logo mx-auto justify-center w-auto"
+          ><img src="img/logo.png" alt="" />
+        </a>
+        <a href="#" class="dropbox-navbar__link">Download the app</a>
+      </div>
+    </header>
+    <div class="dropbox-content max-w-xl mx-auto flex">
+      <div class="dropbox-content__img w-half flex justify-center items-center">
+        <img src="img/undraw-login.svg" alt="Login Image" />
+      </div>
+      <div class="dropbox-content__form w-half">
+        <form action="" class="flex flex-col">
+          <div class="form__header flex justify-between">
+            <h5>Sign In</h5>
+            <p>or <a href="">create an account</a></p>
+          </div>
+          <div class="flex flex-col form__btn">
+            <button class="form__btn-social form__btn-social--google">
+              <span class="form__border flex justify-center items-center"
+                ><img src="img/google.svg" style="height: 1rem; width: 1rem" alt=""
+              /></span>
+              <span class="form__caption">Sign in with Google</span>
+            </button>
+            <button class="form__btn-social form__btn-social--apple">
+              <span class="form__border flex justify-center items-center">
+                <img src="img/apple.svg" style="height: 1rem; width: 1rem" alt="" />
+              </span>
+              <span class="form__caption">Sign in with Apple</span>
+            </button>
+          </div>
+          <div class="form__liners flex justify-center items-center">
+            <span class="form__line"></span>
+            <span class="form__line--caption">or</span>
+            <span class="form__line"></span>
+          </div>
+          <div class="flex flex-col form__input-group">
+            <input type="email" class="form__input form__input--email" placeholder="Email" />
+            <input type="password" class="form__input form__input--password" placeholder="Password" />
+          </div>
+          <div class="form__submit flex items-center justify-between">
+            <div class="flex">
+              <input type="checkbox" class="form__checklist" id="remember" />
+              <label for="remember" class="form__label">Remember me</label>
+            </div>
+            <button class="form__btn-submit">Sign in</button>
+          </div>
+          <a href="#" class="form__forgot">Forgot Password</a>
+          <p class="form__mobile">( or <a href="#"> create an account </a> )</p>
+          <p class="form__notes">
+            This page is protected by reCAPTCHA, and subject to the Google <a href="">Privacy Policy</a> and
+            <a href="#">Terms of service</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="max-w-xl mx-auto dropbox-footer">
+      <div class="border"></div>
+      <div class="flex w-full dropbox-footer__container">
+        <div class="flex justify-between dropbox-footer__menu w-half">
+          <ul>
+            <li class="menu__header">Dropbox</li>
+            <li><a href="#">Install</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Features</a></li>
+          </ul>
+          <ul>
+            <li class="menu__header">About us</li>
+            <li><a href="#">Dropbox Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Jobs</a></li>
+          </ul>
+          <ul>
+            <li class="menu__header">Support</li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+          <ul>
+            <li class="menu__header">Community</li>
+            <li><a href="#">Referrals</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Developers</a></li>
+          </ul>
+        </div>
+        <div class="flex items-start dropbox-footer__translate w-half">
+          <button class="btn-translate flex justify-center items-center">
+            <img src="img/globe.svg" alt="" class="btn-translate__globe" />
+            <p class="btn-translate__caption">English (United States)</p>
+            <img src="img/arrow-icon.png" alt="" class="btn-translate__arrow" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer>
+      <a href="/login-page-css/"> Back to Home </a>
+      <span class="author">
+        Crafted with ❤️ by
+        <a href="https://github.com/naufaldi" rel="noopener noreferrer" target="_blank">Naufaldi</a>, © 2020
+      </span>
+      <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank"> Github Repo </a>
+      <a href="https://www.freepik.com/vectors/people">People vector created by pikisuperstar - www.freepik.com</a>
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+  </body>
+</html>
