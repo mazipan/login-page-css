@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) ![PRs Welome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
 
