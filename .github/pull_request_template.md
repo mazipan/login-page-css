@@ -21,7 +21,7 @@ Add screenshoot if you change the UI
 
 ### Minimum Support
 
-- [ ] Click 🌟 button
+- [ ] Click 🌟 button to this repo
 - [ ] Follow the Author
 
 ### Consider to Support
