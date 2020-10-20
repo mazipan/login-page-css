@@ -32,7 +32,7 @@ https://mazipan.github.io/login-page-css/
 | [Facebook Login Page](https://web.facebook.com/?_rdc=1&_rdr)               | [Demo](https://mazipan.github.io/login-page-css/08-facebook/index.html)   | ![](screenshoots/08-facebook.png)   | [@muh-hizbe](https://github.com/muh-hizbe/) |
 | [Quora Login Page](https://id.quora.com)                  | [Demo](https://mazipan.github.io/login-page-css/10-quora-indo/index.html) | ![](screenshoots/10-quora-indo.png) | [@naufaldi](https://github.com/naufaldi/)   |
 | [Dropbox Login Page](https://www.dropbox.com/login)                  | [Demo](https://mazipan.github.io/login-page-css/11-dropbox/index.html) | ![](screenshoots/11-dropbox.png) | [@naufaldi](https://github.com/naufaldi/)   |
-| [Evernote Login Page](https://www.evernote.com/Login.action)                  | [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html) | ![](screenshoots/12-evernote.png) | [@naufaldi](https://github.com/muh-hizbe/)   |
+| [Evernote Login Page](https://www.evernote.com/Login.action)                  | [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html) | ![](screenshoots/12-evernote.png) | [@muh-hizbe](https://github.com/muh-hizbe/)   |
 
 ## Contribution
 
