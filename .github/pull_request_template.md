@@ -1,6 +1,6 @@
 ## 👋 Thank you for the PR!
 
-### Description of PR:
+### Description:
 
 Add short description
 
