@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) ![PRs Welome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
 
@@ -32,6 +32,7 @@ https://mazipan.github.io/login-page-css/
 | [Facebook Login Page](https://web.facebook.com/?_rdc=1&_rdr)               | [Demo](https://mazipan.github.io/login-page-css/08-facebook/index.html)   | ![](screenshoots/08-facebook.png)   | [@muh-hizbe](https://github.com/muh-hizbe/) |
 | [Quora Login Page](https://id.quora.com)                  | [Demo](https://mazipan.github.io/login-page-css/10-quora-indo/index.html) | ![](screenshoots/10-quora-indo.png) | [@naufaldi](https://github.com/naufaldi/)   |
 | [Dropbox Login Page](https://www.dropbox.com/login)                  | [Demo](https://mazipan.github.io/login-page-css/11-dropbox/index.html) | ![](screenshoots/11-dropbox.png) | [@naufaldi](https://github.com/naufaldi/)   |
+| [Evernote Login Page](https://www.evernote.com/Login.action)                  | [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html) | ![](screenshoots/12-evernote.png) | [@naufaldi](https://github.com/muh-hizbe/)   |
 
 ## Contribution
 
@@ -52,8 +53,10 @@ Let's create an awesome open source css template together!
 
 ## Support me
 
-- Via [trakteer](https://trakteer.id/mazipan)
-- Direct support, [send me an email](mailto:mazipanneh@gmail.com)
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
+- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
 
 ---
 

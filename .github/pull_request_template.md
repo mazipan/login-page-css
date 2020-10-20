@@ -1,20 +1,32 @@
-Developer: `@your_username`
-Description: summary and small descriptions from your pull request
-Design Source: if available
+## 👋 Thank you for the PR!
 
-## Screenshoots
+### Description:
 
-Attach screenshoots if necessary, attach the before and the after if it's a bug fixing.
-If it's new design, please attach for mobile and desktop screenshoots.
+Add short description
 
-## TODOS
+### Issue Reference
 
-- [ ] Add screenshots on `screenshoots` directory (if new design)
-- [ ] Update the list in `readme.md` (if new design)
-- [ ] Add in `src/index.html` (if new design)
-- [ ] Change the author text and link (if new design)
+Add issue reference
 
-@mazipan please review
+### Screenshoot
 
-// If it's a bugfix, please mention the slicer on `readme.md`.
+Add screenshoot if you change the UI
 
+### Todos
+
+- [ ] Add screenshots on `screenshoots` directory
+- [ ] Update the list in `readme.md`
+- [ ] Add in `src/index.html`
+- [ ] Change the author text and link
+
+### Minimum Support
+
+- [ ] Click 🌟 button to this repo
+- [ ] Follow the Author
+
+### Consider to Support
+
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/mazipan?utm_source=github)
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/mazipan?utm_source=github)
+- 👉 🌍 [Paypal](https://www.paypal.me/mazipan?utm_source=github)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/mazipan)
