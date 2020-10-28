@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #3e4348;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  letter-spacing: -0.01em;
+  font-size: 1.063rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff9ec), color-stop(90%, #fff));
+  background: linear-gradient(to bottom, #fff9ec 0, #fff 90%);
+}
+
+p {
+  color: #3e4348;
+  font-size: 0.9411764706rem;
+}
+
+a {
+  color: #0521ca;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.login-screen {
+  height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+  .login-screen {
+    height: auto;
+  }
+}
+
+.login-mangools {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .login-mangools {
+    padding: 1rem;
+  }
+}
+
+.login-mangools__card {
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background: white;
+  -webkit-animation: fadeIn ease-in 0.6s;
+          animation: fadeIn ease-in 0.6s;
+  padding: 1.8rem 2rem;
+  max-width: 456px;
+  width: 100%;
+  margin: 2rem;
+}
+
+.login-mangools__footer {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+  .login-mangools__footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .login-mangools__footer > a {
+    margin-bottom: 1rem;
+  }
+}
+
+.login-mangools__notes {
+  margin-top: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 20rem;
+  width: 100%;
+}
+
+.login-mangools__notes > a {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .login-mangools__notes {
+    margin-top: 0;
+  }
+}
+
+.card__label {
+  font-size: 0.875rem;
+  color: #7c7d80;
+  margin: 0.5rem 0;
+}
+
+.card__icon {
+  padding: 0.75rem 1rem 1rem 1rem;
+}
+
+.card__icon > svg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.card__list {
+  margin-bottom: 1rem;
+}
+
+.card__input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  font-size: 1.125rem;
+  line-height: 28px;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  border: 1px solid #acacad;
+}
+
+@media screen and (max-width: 800px) {
+  .card__input {
+    font-size: 1rem;
+  }
+}
+
+.card__input:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.card__input:focus {
+  border: 1px solid black;
+}
+
+.card__sign-in {
+  padding: 0.8rem 3rem;
+  color: white;
+  max-width: 320px;
+  width: 100%;
+  margin: 1rem auto 1rem auto;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #1ba005), to(#0ec851));
+  background: linear-gradient(to right, #1ba005 0, #0ec851 100%);
+  font-weight: 600;
+  border: none;
+  border-radius: 24px;
+  outline: none;
+  text-align: center;
+  font-size: 1.125rem;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(27, 160, 5, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(27, 160, 5, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card__sign-in:hover {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(27, 160, 5, 0.5);
+          box-shadow: 0 5px 20px 0 rgba(27, 160, 5, 0.5);
+}
+
+.card__url {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .card__url {
+    font-size: 0.75rem;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer__box {
+  border-radius: 4px;
+  background: white;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  height: 36px;
+  width: 36px;
+  margin-right: 10px;
+}
+
+.footer__logo {
+  height: 1rem;
+}
+
+.footer__text {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.footer__link {
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__link {
+    margin: 0.5rem 1rem;
+  }
+}
+
+.shape-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  z-index: -1;
+}
+
+.shape-bottom__small {
+  height: 8rem;
+}
+
+.shape-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 8%;
+  margin-right: 4%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 800px) {
+  .shape-top {
+    margin-top: 12%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shape-top {
+    margin-right: 0;
+    margin-top: 30%;
+  }
+}
+
+.shape-top__big {
+  height: 14rem;
+}
+/*# sourceMappingURL=style.css.map */
