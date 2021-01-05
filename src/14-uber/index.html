@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber</title>
+  <link rel="stylesheet" href="../shared/normalize.css" />
+  <link rel="stylesheet" href="../shared/additional.css" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="funnel"></div>
+    <div class="logo">
+      <img src="../assets/logo.png" style="height: 60%;">
+    </div>
+  </nav>
+
+  <main class="container">
+    <form class="login-card">
+      <h1 class="login-card__header">
+        Sign In
+      </h1>
+      <label for="email" class="login-card__label">Email or mobile number</label>
+      <input type="text" class="login-card__input" name="email" placeholder="Email or mobile number">
+      <button class="login-card__btn"><span>NEXT</span><img src="./image/next.svg"></button>
+      <span class="login-card__ask">Don't have an account? <span class="alink">Sign up</span></span>
+    </form>
+  </main>
+
+  <footer>
+    <div class="banner_img"></div>
+    <div class="container footer">
+      <div class="footer__logo">
+        Uber
+      </div>
+      <div class="footer__devider">
+      </div>
+      <div class="footer__content">
+        <div class="col">
+          © 2021 Uber Technologies, Inc.
+        </div>
+        <div class="col">
+          <span>Privacy Policy</span>|<span>Terms of Use</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+  <footer>
+    <a href="/login-page-css/"> Back to Home </a>
+    <span class="author">
+      Crafted with ❤️ by
+      <a href="https://github.com/xxidbr9" rel="noopener noreferrer" target="_blank">Barnando Akbarto H</a>, © 2021
+    </span>
+    <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank"> Github Repo </a>
+  </footer>
+  <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+
+</body>
+
+
+
+</script>
+<script defer>
+  const form = document.querySelector("form");
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+  });
+</script>
+
+</html>
