@@ -34,6 +34,7 @@ https://mazipan.github.io/login-page-css/
 | [Dropbox Login Page](https://www.dropbox.com/login)                  | [Demo](https://mazipan.github.io/login-page-css/11-dropbox/index.html) | ![](screenshoots/11-dropbox.png) | [@naufaldi](https://github.com/naufaldi/)   |
 | [Evernote Login Page](https://www.evernote.com/Login.action)                  | [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html) | ![](screenshoots/12-evernote.png) | [@muh-hizbe](https://github.com/muh-hizbe/)   |
 | [Mangools Login Page](https://mangools.com/users/sign_in)                  | [Demo](https://mazipan.github.io/login-page-css/13-mangools/index.html) | ![](screenshoots/13-mangools.png) | [@naufaldi](https://github.com/naufaldi/)   |
+| [Uber Login Page](https://auth.uber.com/login/)                  | [Demo](https://mazipan.github.io/login-page-css/14-uber/index.html) | ![](screenshoots/14-uber.png) | [@xxidbr9](https://github.com/xxidbr9/)   |
 
 ## Contribution
 
@@ -82,6 +83,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/dennib"><img src="https://avatars2.githubusercontent.com/u/13068594?v=4" width="64px;" alt=""/><br /><sub><b>Denni Bevilacqua</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/issues?q=author%3Adennib" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://hizbe.dev"><img src="https://avatars2.githubusercontent.com/u/37175249?v=4" width="64px;" alt=""/><br /><sub><b>Muhammad Hizbullah</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=muh-hizbe" title="Code">💻</a></td>
     <td align="center"><a href="http://kureview.web.id"><img src="https://avatars0.githubusercontent.com/u/13159420?v=4" width="64px;" alt=""/><br /><sub><b>Naufaldi</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=naufaldi" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/xxidbr9"><img src="https://avatars3.githubusercontent.com/u/51733515" width="64px;" alt=""/><br /><sub><b>nando</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=xxidbr9" title="Code">💻</a></td>
   </tr>
 </table>
 

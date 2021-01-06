@@ -1,0 +1,237 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@mixin font {
+  font-family: "Poppins", sans-serif;
+}
+// Screen
+$md-screen: 770px;
+$md-height: 752px;
+
+// Color
+$primary: #11939a;
+$d-primary: #0c6c71;
+$black: #000000;
+$grey: #f1f1f1;
+$d-grey: #e5e5e4;
+$d-grey2: #d0d0d0;
+$white: #ffffff;
+
+:root,
+body,
+html {
+  @include font;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+  line-height: 1.2rem;
+  background-color: $grey;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  ::selection {
+    background-color: $primary;
+    color: $grey;
+    padding: 0;
+  }
+}
+
+@mixin animate {
+  transition: all 0.4s ease !important;
+}
+
+@mixin input {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.2rem;
+  background: #fff;
+  margin-bottom: 2rem;
+  @include animate();
+}
+
+$navbarHeight: 3.33rem;
+$marginMainTop: 100px;
+
+.container {
+  max-width: 100%;
+  padding: 0 3rem;
+  @media (max-width: $md-screen) {
+    padding: 0 1rem;
+  }
+}
+
+nav {
+  .funnel {
+    height: $navbarHeight;
+    width: 100%;
+    background: url("./image/batik.png") center center repeat;
+    background-size: 5rem;
+    @media (max-width: $md-screen) {
+      background: $black !important;
+    }
+  }
+  .logo {
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: $md-screen) {
+      display: none;
+    }
+    img {
+      background-color: rgb(46, 46, 48);
+      padding: 1.5rem;
+    }
+  }
+}
+
+main {
+  margin-top: $marginMainTop;
+  @media (max-width: $md-screen) {
+    margin-top: 2rem;
+  }
+  .login-card {
+    padding: 1rem;
+    margin: auto;
+
+    // heigh responsive
+    @media (max-height: $md-height), screen and (min-width: $md-screen) {
+      height: 23rem !important;
+    }
+    @media (min-height: $md-height+1), screen and (max-width: $md-screen) {
+      height: calc(100vh - #{$marginMainTop} - #{$navbarHeight});
+    }
+
+    // width responsive
+    width: 44rem;
+    @media (max-width: $md-screen) {
+      padding: 0;
+      width: 100%;
+    }
+    &__header,
+    h1 {
+      font-weight: 300;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    &_label,
+    label {
+      display: inline-block;
+      align-items: center;
+      line-height: 2rem;
+    }
+    &__input {
+      display: inline-block;
+      border: 1px solid $d-grey;
+      color: #000;
+      @include input;
+      &:hover {
+        border: 1px solid $d-grey2;
+      }
+      &:active,
+      &:focus {
+        border: 1px solid $primary;
+      }
+    }
+    &__btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 0px;
+      background-color: $primary !important;
+      color: $white;
+      font-weight: 600;
+      cursor: pointer;
+      @include input;
+      img {
+        width: 1.5rem;
+        margin-right: 0.6rem;
+        @include animate();
+      }
+      &:hover {
+        background-color: $d-primary !important;
+        img {
+          margin-right: 0px;
+        }
+      }
+    }
+    &__ask {
+      .alink {
+        cursor: pointer;
+        color: $primary;
+        @include animate();
+        &:hover {
+          color: $d-primary;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: relative;
+  @media screen and (max-width: $md-screen),
+    screen and (min-height: $md-height) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  color: $grey;
+  font-weight: 300;
+  .banner_img {
+    background-image: url("./image/bottom.svg");
+    background-size: contain;
+    background-position: bottom;
+    @media screen and (max-width: $md-screen) {
+      width: 100%;
+      background-size: 200vw;
+      position: absolute;
+      bottom: 10rem;
+      z-index: 1;
+    }
+    background-repeat: no-repeat;
+    height: 15rem;
+  }
+  * {
+    &.footer {
+      background-color: $black;
+
+      &__logo {
+        display: block;
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: -1px;
+        padding: 2rem 0;
+        @media (max-width: $md-screen) {
+          color: $black;
+        }
+      }
+      &__devider {
+        width: 100%;
+        border-bottom: solid rgba($grey, 0.5) 0.5px;
+      }
+      &__content {
+        padding: 2rem 0;
+        display: flex;
+        font-size: 0.85rem;
+        justify-content: space-between;
+        .col {
+          $col-span: 0.3rem;
+          span:nth-child(1) {
+            margin-right: $col-span;
+          }
+          span:nth-last-child(1) {
+            margin-left: $col-span;
+          }
+        }
+      }
+    }
+  }
+}
