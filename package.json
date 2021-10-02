@@ -25,6 +25,9 @@
 		"rimraf": "^3.0.2",
 		"sass": "^1.27.0"
 	},
+        "resolutions": {
+               "@babel/preset-env": "7.13.8"
+         },
 	"staticFiles": {
 		"staticPath": [
 			"src/assets"
