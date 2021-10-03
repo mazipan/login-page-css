@@ -86,6 +86,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/xxidbr9"><img src="https://avatars1.githubusercontent.com/u/51733515?v=4?s=48" width="48px;" alt=""/><br /><sub><b>Barnando Akbarto Hidayatullah</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=xxidbr9" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/SubhamKarmakar24"><img src="https://avatars.githubusercontent.com/u/50767716?v=4" width="48px;" alt=""/><br /><sub><b>Subham Karmakar</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=SubhamKarmakar24" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
