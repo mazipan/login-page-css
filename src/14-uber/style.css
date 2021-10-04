@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 :root,
 body,
 html {
@@ -53,7 +54,7 @@ nav .funnel {
 
 @media (max-width: 770px) {
   nav .funnel {
-    background: #000000 !important;
+    background: #000 !important;
   }
 }
 
@@ -66,8 +67,8 @@ nav .logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 770px) {
@@ -127,8 +128,8 @@ main .login-card_label,
 main .login-card label {
   display: inline-block;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   line-height: 2rem;
 }
 
@@ -138,10 +139,10 @@ main .login-card__input {
   color: #000;
   -webkit-appearance: none;
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   outline: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   padding: 1.25rem 1.5rem;
   font-size: 1.2rem;
@@ -155,7 +156,8 @@ main .login-card__input:hover {
   border: 1px solid #d0d0d0;
 }
 
-main .login-card__input:active, main .login-card__input:focus {
+main .login-card__input:active,
+main .login-card__input:focus {
   border: 1px solid #11939a;
 }
 
@@ -164,26 +166,25 @@ main .login-card__btn {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 0px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 0;
   background-color: #11939a !important;
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   outline: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   padding: 1.25rem 1.5rem;
   font-size: 1.2rem;
-  background: #fff;
   margin-bottom: 2rem;
   -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
@@ -201,7 +202,7 @@ main .login-card__btn:hover {
 }
 
 main .login-card__btn:hover img {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 main .login-card__ask .alink {
@@ -249,7 +250,7 @@ main .login-card__ask .alink:hover {
 }
 
 .main_footer *.footer {
-  background-color: #000000;
+  background-color: #000;
 }
 
 .main_footer *.footer__logo {
@@ -262,7 +263,7 @@ main .login-card__ask .alink:hover {
 
 @media (max-width: 770px) {
   .main_footer *.footer__logo {
-    color: #000000;
+    color: #000;
   }
 }
 
@@ -278,8 +279,8 @@ main .login-card__ask .alink:hover {
   display: flex;
   font-size: 0.85rem;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .main_footer *.footer__content .col span:nth-child(1) {
@@ -289,4 +290,3 @@ main .login-card__ask .alink:hover {
 .main_footer *.footer__content .col span:nth-last-child(1) {
   margin-left: 0.3rem;
 }
-/*# sourceMappingURL=style.css.map */

@@ -12,14 +12,14 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
 }
 
 a {
-  color: #1B73E8;
+  color: #1b73e8;
   text-decoration: none;
   font-weight: 600;
 }
@@ -58,13 +58,13 @@ a {
 }
 
 .btn.secondary {
-  color: #1B73E8;
+  color: #1b73e8;
   background-color: #fff;
 }
 
 .btn.primary {
   color: #fff;
-  background-color: #1B73E8;
+  background-color: #1b73e8;
 }
 
 .form-wrapper {
@@ -73,7 +73,7 @@ a {
   margin: 0 auto;
   background-color: #fff;
   padding: 48px 40px 36px;
-  border: 1px solid #DBDCE0;
+  border: 1px solid #dbdce0;
   border-radius: 5px;
 }
 
@@ -102,16 +102,15 @@ a {
 .input {
   width: 100%;
   padding: 13px 15px;
-  border: none;
   border-radius: 3px;
   line-height: 24px;
-  border: #DBDCE0 solid 1px;
+  border: #dbdce0 solid 1px;
   font-size: 16px;
   position: relative;
 }
 
 .input:focus {
-  box-shadow: 0px 0px 0px 2px #1B73E8 inset;
+  box-shadow: 0 0 0 2px #1b73e8 inset;
   outline: none;
   transition: 100ms;
 }
@@ -128,11 +127,11 @@ a {
 }
 
 .field:focus-within .label,
-.input:not(:placeholder-shown)+.label {
+.input:not(:placeholder-shown) + .label {
   transform: scale(0.8) translateY(-43px);
   left: 12px;
   background-color: #fff;
-  color: #1B73E8;
+  color: #1b73e8;
   padding: 1px 5px;
 }
 

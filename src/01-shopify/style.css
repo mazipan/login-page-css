@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+
   /* If you set different base font, you might need more tweak */
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -8,13 +9,13 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background-color: rgb(242, 245, 247);
-  color: #4D5068;
+  color: #4d5068;
   font-family: 'Open Sans', sans-serif;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -38,6 +39,7 @@ html {
     background-position-y: top;
     background-size: 250px;
     margin-bottom: 5em;
+
     /* tweak for footer fixed -- you don't need this */
   }
 }
@@ -93,12 +95,12 @@ html {
 }
 
 .label {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
 .input {
-  padding: .5em 0 .5em 1em;
+  padding: 0.5em 0 0.5em 1em;
   width: 100%;
   border: 1px solid #e5e7ec;
   border-radius: 5px;
@@ -107,9 +109,9 @@ html {
 }
 
 .btn-submit {
-  background-color: #6371C5;
+  background-color: #6371c5;
   color: #fff;
-  padding: .7em;
+  padding: 0.7em;
   border-radius: 5px;
   outline: 0;
   border: 0;
@@ -122,25 +124,25 @@ html {
   position: absolute;
   right: 10px;
   margin-top: 1em;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-decoration: none;
-  color: #6371C5;
+  color: #6371c5;
   z-index: 2;
 }
 
 .link-register {
   background-color: #fff;
   display: flex;
-  padding: .7em;
+  padding: 0.7em;
   justify-content: center;
   text-decoration: none;
-  color: #4D5068;
+  color: #4d5068;
   border: 1px solid #e5e7ec;
   border-radius: 5px;
   margin-bottom: 1em;
 }
 
-.link-about>a {
-  color: #4D5068;
+.link-about > a {
+  color: #4d5068;
   text-decoration: underline;
 }

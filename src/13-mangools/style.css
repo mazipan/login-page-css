@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,43 +9,43 @@
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .justify-center {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .justify-between {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .justify-around {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-evenly {
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .items-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .items-start {
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .mx-auto {
@@ -73,7 +74,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   color: #3e4348;
   margin: 0;
@@ -128,12 +129,12 @@ h2 {
 }
 
 .login-mangools__card {
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background: white;
-  -webkit-animation: fadeIn ease-in 0.6s;
-          animation: fadeIn ease-in 0.6s;
+  -webkit-animation: fadein ease-in 0.6s;
+  animation: fadeIn ease-in 0.6s;
   padding: 1.8rem 2rem;
   max-width: 456px;
   width: 100%;
@@ -144,17 +145,18 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 2rem;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 800px) {
   .login-mangools__footer {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .login-mangools__footer > a {
     margin-bottom: 1rem;
   }
@@ -218,8 +220,8 @@ h2 {
 }
 
 .card__input:hover {
-  -webkit-box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-          box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.18) 0 2px 4px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 2px 4px;
 }
 
 .card__input:focus {
@@ -241,14 +243,14 @@ h2 {
   text-align: center;
   font-size: 1.125rem;
   -webkit-box-shadow: 0 2px 4px 0 rgba(27, 160, 5, 0.2);
-          box-shadow: 0 2px 4px 0 rgba(27, 160, 5, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(27, 160, 5, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .card__sign-in:hover {
   -webkit-box-shadow: 0 5px 20px 0 rgba(27, 160, 5, 0.5);
-          box-shadow: 0 5px 20px 0 rgba(27, 160, 5, 0.5);
+  box-shadow: 0 5px 20px 0 rgba(27, 160, 5, 0.5);
 }
 
 .card__url {
@@ -267,6 +269,7 @@ h2 {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -276,6 +279,7 @@ h2 {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -285,7 +289,7 @@ h2 {
   border-radius: 4px;
   background: white;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
   height: 36px;
   width: 36px;
   margin-right: 10px;
@@ -350,4 +354,3 @@ h2 {
 .shape-top__big {
   height: 14rem;
 }
-/*# sourceMappingURL=style.css.map */

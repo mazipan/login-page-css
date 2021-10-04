@@ -12,8 +12,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -64,7 +64,9 @@ a:focus {
 }
 
 .input {
-  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
+  transition:
+    border 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
     -webkit-box-shadow 0.2s ease-in-out;
   border: 1px solid #ddd;
   background-color: #fff;

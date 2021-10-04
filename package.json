@@ -1,46 +1,41 @@
 {
 	"name": "login-page-css",
 	"version": "1.0.0",
-	"main": "index.js",
 	"repository": "git@github.com:mazipan/login-page-css.git",
 	"author": "Irfan Maulana <https://mazipan.space/>",
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"cz": "cz",
 		"dev": "parcel src/index.html src/**/*.html",
 		"build": "cross-env NODE_ENV=production rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"lint": "stylelint 'src/**/*.css' --fix",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@fullhuman/postcss-purgecss": "^3.0.0",
-		"autoprefixer": "^9.8.6",
-		"commitizen": "^4.2.1",
-		"cross-env": "^7.0.2",
-		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^4.3.0",
-		"parcel": "^1.12.4",
-		"parcel-plugin-static-files-copy": "^2.5.0",
-		"postcss-modules": "^2.0.0",
+		"@commitlint/cli": "^13.2.0",
+		"@commitlint/config-conventional": "^13.2.0",
+		"@fullhuman/postcss-purgecss": "^4.0.3",
+		"@parcel/transformer-image": "^2.0.0-rc.0",
+		"autoprefixer": "^10.3.6",
+		"cross-env": "^7.0.3",
+		"husky": "^7.0.2",
+		"lint-staged": "^11.1.2",
+		"parcel": "2.0.0-rc.0",
+		"parcel-plugin-static-files-copy": "^2.6.0",
+		"postcss-modules": "^4.2.2",
+		"prettier": "^2.4.1",
 		"rimraf": "^3.0.2",
-		"sass": "^1.27.0"
+		"sass": "^1.42.1",
+		"stylelint": "^13.13.1",
+		"stylelint-config-standard": "^22.0.0"
 	},
-        "resolutions": {
-               "@babel/preset-env": "7.13.8"
-         },
+	"resolutions": {
+		"@babel/preset-env": "7.13.8"
+	},
 	"staticFiles": {
 		"staticPath": [
 			"src/assets"
 		]
-	},
-	"config": {
-		"commitizen": {
-			"path": "cz-conventional-changelog"
-		}
-	},
-	"husky": {
-		"hooks": {
-			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
-		}
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "src/**/*.{css,scss,json,md,html}": [
+    "stylelint 'src/**/*.css' --quiet --fix",
+    "prettier --ignore-path .gitignore --write"
+  ]
+}

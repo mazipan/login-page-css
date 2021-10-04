@@ -4,7 +4,7 @@
   border: none;
   outline: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -19,8 +19,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .flex {
@@ -31,20 +31,20 @@ body {
 
 .justify-center {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .items-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .justify-betweeen {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .w-half {
@@ -54,8 +54,8 @@ body {
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 input {
@@ -66,7 +66,7 @@ input {
   border: 1px solid #e2e2e2;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
-          box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
+  box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
   width: 100%;
 }
 
@@ -90,8 +90,8 @@ input::placeholder {
   background-image: url("background-img.jpg");
   background-size: cover;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .login-page {
@@ -142,7 +142,7 @@ input::placeholder {
   background-color: #3e78ad;
   border: 1px solid #3e78ad;
   -webkit-box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
-          box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
+  box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
   padding: 0.25rem 0.438rem;
   color: #fff;
   font-weight: 500;
@@ -162,13 +162,13 @@ input::placeholder {
 
 .modal-quora {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 650px;
-          flex: 0 0 650px;
+  -ms-flex: 0 0 650px;
+  flex: 0 0 650px;
   margin: 0 auto;
   margin-bottom: 5.5rem;
   border: 1px solid #e2e2e2;
   -webkit-box-shadow: 0 0 5px #888;
-          box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
 }
 
 .modal-quora__body {
@@ -234,4 +234,3 @@ input::placeholder {
   position: absolute;
   left: 1rem;
 }
-/*# sourceMappingURL=style.css.map */

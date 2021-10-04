@@ -10,8 +10,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
@@ -20,9 +20,9 @@ html {
 .Header {
   position: fixed;
   width: 100%;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 11;
   background: #00aeef;
 }
@@ -40,8 +40,8 @@ html {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0px auto;
-  padding: 0px 1em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .Header .ArrowBack {
@@ -61,7 +61,7 @@ html {
   text-overflow: ellipsis;
   overflow: hidden;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 0px;
+  -ms-flex: 1 1 0;
   flex: 1 1 0;
   color: #fff;
 }
@@ -74,7 +74,7 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100vh;
-  margin: 0px auto;
+  margin: 0 auto;
   color: #333;
 }
 
@@ -93,7 +93,7 @@ html {
 }
 
 .form-group {
-  margin-bottom: .75em;
+  margin-bottom: 0.75em;
   display: block;
 }
 
@@ -176,7 +176,7 @@ html {
 }
 
 .divider {
-  margin: 0px -16px;
+  margin: 0 -16px;
   border: 0;
   border-top: 7px solid #f7f7f7;
 }
@@ -214,8 +214,8 @@ html {
 }
 
 .google-btn {
-  -webkit-box-shadow: #bcbcbc 2px 1px 2px 0px;
-  box-shadow: #bcbcbc 2px 1px 2px 0px;
+  -webkit-box-shadow: #bcbcbc 2px 1px 2px 0;
+  box-shadow: #bcbcbc 2px 1px 2px 0;
   background-color: #f7f7f7;
   color: #4a4a4a;
 }
@@ -233,7 +233,7 @@ html {
   top: 0;
   bottom: 0;
   left: 0;
-  color: #999999;
+  color: #999;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
