@@ -1,138 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="follow,index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailchimp Login Template | Login Page CSS</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="robots" content="follow,index">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mailchimp Login Template | Login Page CSS</title>
+    <meta
+      name="description"
+      content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework"
+    />
+    <meta name="keywords" content="login page css, login template, login css, login form template" />
 
-	<meta name="description" content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework">
-	<meta name="keywords" content="login page css, login template, login css, login form template">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png">
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
+    <meta name="msapplication-TileColor" content="#007c89" />
+    <meta name="theme-color" content="#007c89" />
+    <link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
 
-	<meta name="msapplication-TileColor" content="#007c89" />
-	<meta name="theme-color" content="#007c89" />
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json">
+    <link rel="stylesheet" href="../shared/normalize.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-	<link rel="stylesheet" href="../shared/normalize.css">
-	<link rel="stylesheet" href="../shared/additional.css">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- You don't need this script, this is my GA code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
 
-	<!-- You don't need this script, this is my GA code -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+      gtag('config', 'UA-25065548-2')
+    </script>
+  </head>
 
-		gtag('config', 'UA-25065548-2');
-	</script>
+  <body>
+    <div class="content">
+      <div class="content-left">
+        <div class="form-wrapper">
+          <div class="logo">
+            <img src="../assets/favicon/android-chrome-192x192.png" alt="Logo" />
+          </div>
+          <h1 class="text-title">Log In</h1>
+          <div>Need an account? <a href="#register">Create an account</a></div>
 
+          <div class="field-group">
+            <label class="label" for="txt-email">Username</label>
+            <input class="input" type="text" id="txt-email" name="email" />
+          </div>
+          <div class="field-group">
+            <div class="label-wrapper">
+              <label class="label" for="txt-password">Password</label>
+              <label class="label label--right" onclick="tooglePassword()">
+                <svg
+                  class="label-icon eye is--show"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-eye"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <svg
+                  class="label-icon eye-off is--hide"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-eye-off"
+                >
+                  <path
+                    d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"
+                  ></path>
+                  <line x1="1" y1="1" x2="23" y2="23"></line>
+                </svg>
+                <span class="label-text">Show</span>
+              </label>
+            </div>
+            <input class="input" type="password" id="txt-password" name="password" />
+          </div>
 
-</head>
+          <div class="field-group">
+            <input class="btn-submit" type="submit" value="Log In" />
+          </div>
 
-<body>
+          <div class="field-group">
+            <label class="checkbox-label"
+              >Keep me logged in
+              <input type="checkbox" />
+              <span class="checkbox-checkmark"></span>
+            </label>
+          </div>
 
-	<div class="content">
-		<div class="content-left">
-			<div class="form-wrapper">
-				<div class="logo">
-					<img src="../assets/favicon/android-chrome-192x192.png" alt="Logo">
-				</div>
-				<h1 class="text-title">Log In</h1>
-				<div>Need an account? <a href="#register">Create an account</a></div>
+          <div class="field-group text-center">
+            <a href="#forgot-username">Forgot username?</a><span> · </span
+            ><a href="#forgot-password">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="content-right-text">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos esse debitis consectetur dolor facilis
+            molestiae, maiores itaque. Quod cupiditate accusamus ab. Repellat inventore sunt culpa possimus alias
+            dignissimos adipisci.</span
+          >
+        </div>
+        <a class="link-custom-domain"> Lorem ipsum dolor sit amet </a>
+      </div>
+    </div>
 
-				<div class="field-group">
-					<label class="label" for="txt-email">Username</label>
-					<input class="input" type="text" id="txt-email" name="email" />
-				</div>
-				<div class="field-group">
-					<div class="label-wrapper">
-						<label class="label" for="txt-password">Password</label>
-						<label class="label label--right" onclick="tooglePassword()">
-							<svg class="label-icon eye is--show" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-							<svg class="label-icon eye-off is--hide" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye-off"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
-							<span class="label-text">Show</span>
-						</label>
-					</div>
-					<input class="input" type="password" id="txt-password" name="password" />
-				</div>
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer>
+      <a href="/login-page-css/"> Back to Home </a>
+      <span class="author">
+        Crafted with ❤️ by <a href="https://mazipan.space/" rel="noopener noreferrer" target="_blank">Irfan Maulana</a>,
+        © 2020
+      </span>
+      <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank"> Github Repo </a>
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
 
-				<div class="field-group">
-					<input class="btn-submit" type="submit" value="Log In" />
-				</div>
+    <script>
+      function a() {
+        var p = document.querySelector('#txt-password')
+        var t = document.querySelector('.label-text')
+        var ey = document.querySelector('.eye')
+        var eyo = document.querySelector('.eye-off')
+        var currType = p.getAttribute('type')
 
-				<div class="field-group">
-					<label class="checkbox-label">Keep me logged in
-						<input type="checkbox">
-						<span class="checkbox-checkmark"></span>
-					</label>
-				</div>
+        if (currType === 'password') {
+          t.innerHTML = 'Hide'
+          p.setAttribute('type', 'text')
+          ey.classList.replace('is--show', 'is--hide')
+          eyo.classList.replace('is--hide', 'is--show')
+        } else {
+          t.innerHTML = 'Show'
+          p.setAttribute('type', 'password')
+          eyo.classList.replace('is--show', 'is--hide')
+          ey.classList.replace('is--hide', 'is--show')
+        }
+      }
 
-				<div class="field-group text-center">
-					<a href="#forgot-username">Forgot username?</a><span> · </span><a href="#forgot-password">Forgot password?</a>
-				</div>
-			</div>
-		</div>
-		<div class="content-right">
-			<div class="content-right-text">
-				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos esse debitis consectetur dolor facilis molestiae, maiores itaque. Quod cupiditate accusamus ab. Repellat inventore sunt culpa possimus alias dignissimos adipisci.</span>
-			</div>
-			<a class="link-custom-domain">
-				Lorem ipsum dolor sit amet
-			</a>
-		</div>
-	</div>
-
-	<!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
-	<footer>
-		<a href="/login-page-css/">
-			Back to Home
-		</a>
-		<span class="author">
-			Crafted with ❤️ by <a href="https://mazipan.space/" rel="noopener noreferrer" target="_blank">Irfan Maulana</a>, ©
-			2020
-		</span>
-		<a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank">
-			Github Repo
-		</a>
-	</footer>
-	<!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
-
-	<script>
-		function a () {
-			var p = document.querySelector('#txt-password');
-			var t = document.querySelector('.label-text');
-			var ey = document.querySelector('.eye');
-			var eyo = document.querySelector('.eye-off');
-			var currType = p.getAttribute('type');
-
-			if (currType === 'password') {
-				t.innerHTML = 'Hide';
-				p.setAttribute('type', 'text');
-				ey.classList.replace('is--show', 'is--hide');
-				eyo.classList.replace('is--hide', 'is--show');
-			} else {
-				t.innerHTML = 'Show';
-				p.setAttribute('type', 'password');
-				eyo.classList.replace('is--show', 'is--hide');
-				ey.classList.replace('is--hide', 'is--show');
-			}
-		}
-
-		window.tooglePassword = a;
-	</script>
-</body>
-
+      window.tooglePassword = a
+    </script>
+  </body>
 </html>

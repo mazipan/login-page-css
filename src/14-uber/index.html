@@ -76,8 +76,9 @@
 
 </script>
 <script defer>
-  const form = document.querySelector("form");
-  form.addEventListener("submit", e => {
+  // eslint-disable-next-line
+  var form = document.querySelector("form");
+  form.addEventListener("submit", function(e) {
     e.preventDefault();
   });
 </script>

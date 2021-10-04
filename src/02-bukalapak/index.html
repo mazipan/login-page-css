@@ -1,123 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="follow,index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bukalapak Login Template | Login Page CSS</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="robots" content="follow,index">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bukalapak Login Template | Login Page CSS</title>
+    <meta
+      name="description"
+      content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework"
+    />
+    <meta name="keywords" content="login page css, login template, login css, login form template" />
 
-	<meta name="description" content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework">
-	<meta name="keywords" content="login page css, login template, login css, login form template">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png">
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
+    <meta name="msapplication-TileColor" content="#c30f42" />
+    <meta name="theme-color" content="#c30f42" />
+    <link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
 
-	<meta name="msapplication-TileColor" content="#c30f42" />
-	<meta name="theme-color" content="#c30f42" />
-	<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json">
+    <link rel="stylesheet" href="../shared/normalize.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-	<link rel="stylesheet" href="../shared/normalize.css">
-	<link rel="stylesheet" href="../shared/additional.css">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- You don't need this script, this is my GA code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-	<!-- You don't need this script, this is my GA code -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+      gtag('config', 'UA-25065548-2')
+    </script>
+  </head>
 
-		gtag('config', 'UA-25065548-2');
-	</script>
+  <body>
+    <div class="logo-wrapper">
+      <img class="logo" alt="Logo" src="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png" />
+    </div>
 
+    <div class="content-body">
+      <div class="form-wrapper">
+        <h1 class="text-title">Silakan masuk ke dalam akun kamu</h1>
+        <div class="text-register">Belum punya akun? <a href="#register">Daftar di sini</a></div>
 
-</head>
+        <div class="field-group">
+          <input
+            class="input"
+            type="text"
+            id="txt-email"
+            name="email"
+            placeholder="E-mail / Username / Nomor Handphone"
+          />
+          <input class="input" type="password" id="txt-password" name="password" placeholder="Password" />
+        </div>
 
-<body>
+        <div class="field-group-inline">
+          <label for="chk-rememberme">
+            <input class="checkbox" type="checkbox" id="chk-rememberme" name="rememberme" />
+            Ingat saya
+          </label>
+          <a href="#forget-password"> Lupa Password? </a>
+        </div>
 
-	<div class="logo-wrapper">
-		<img class="logo" alt="Logo" src="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png" />
-	</div>
+        <div class="field-group">
+          <input class="btn-submit" type="submit" value="Login" />
+        </div>
 
-	<div class="content-body">
-		<div class="form-wrapper">
-			<h1 class="text-title">Silakan masuk ke dalam akun kamu</h1>
-			<div class="text-register">Belum punya akun? <a href="#register">Daftar di sini</a></div>
+        <div class="separator-wrapper">
+          <div class="separator">
+            <span>ATAU</span>
+          </div>
+        </div>
 
-			<div class="field-group">
-				<input class="input" type="text" id="txt-email" name="email"
-					placeholder="E-mail / Username / Nomor Handphone" />
-				<input class="input" type="password" id="txt-password" name="password" placeholder="Password" />
-			</div>
+        <div class="field-group">
+          <a href="#login-facebook" class="link-social-login">
+            <img src="./fb-logo.png" />
+            Login dengan Facebook
+          </a>
+          <a href="#login-google" class="link-social-login">
+            <img src="./google-logo.png" />
+            Login dengan Google
+          </a>
+        </div>
 
-			<div class="field-group-inline">
-				<label for="chk-rememberme">
-					<input class="checkbox" type="checkbox" id="chk-rememberme" name="rememberme" />
-					Ingat saya
-				</label>
-				<a href="#forget-password">
-					Lupa Password?
-				</a>
-			</div>
+        <div class="footnote-wrapper">
+          <div class="footnote footnote-left">
+            Belum punya akun?
+            <br />
+            <a href="#register">Daftar sekarang</a>
+          </div>
+          <div class="footnote footnote-right">
+            User belum aktif?
+            <br />
+            <a href="#resend-verification"> Kirim ulang email aktivasi </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div class="field-group">
-				<input class="btn-submit" type="submit" value="Login" />
-			</div>
-
-			<div class="separator-wrapper">
-				<div class="separator">
-					<span>ATAU</span>
-				</div>
-			</div>
-
-			<div class="field-group">
-				<a href="#login-facebook" class="link-social-login">
-					<img src="./fb-logo.png" />
-					Login dengan Facebook
-				</a>
-				<a href="#login-google" class="link-social-login">
-					<img src="./google-logo.png" />
-					Login dengan Google
-				</a>
-			</div>
-
-			<div class="footnote-wrapper">
-				<div class="footnote footnote-left">
-					Belum punya akun?
-					<br />
-					<a href="#register">Daftar sekarang</a>
-				</div>
-				<div class="footnote footnote-right">
-					User belum aktif?
-					<br />
-					<a href="#resend-verification">
-						Kirim ulang email aktivasi
-					</a>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
-	<footer>
-		<a href="/login-page-css/">
-			Back to Home
-		</a>
-		<span class="author">
-			Crafted with ❤️ by <a href="https://mazipan.space/" rel="noopener noreferrer" target="_blank">Irfan
-				Maulana</a>, © 2020
-		</span>
-		<a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank">
-			Github Repo
-		</a>
-	</footer>
-	<!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
-</body>
-
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer>
+      <a href="/login-page-css/"> Back to Home </a>
+      <span class="author">
+        Crafted with ❤️ by <a href="https://mazipan.space/" rel="noopener noreferrer" target="_blank">Irfan Maulana</a>,
+        © 2020
+      </span>
+      <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank"> Github Repo </a>
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+  </body>
 </html>

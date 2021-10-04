@@ -8,7 +8,9 @@
 	"scripts": {
 		"dev": "parcel src/index.html src/**/*.html",
 		"build": "cross-env NODE_ENV=production rimraf dist && parcel build src/index.html src/**/*.html --public-url https://mazipan.github.io/login-page-css/",
-		"lint": "stylelint 'src/**/*.css' --fix",
+		"lint:css": "stylelint 'src/**/*.css' --fix",
+		"lint:html": "eslint 'src/**/*.html' --fix",
+		"lint": "yarn lint:css && yarn lint:html",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky install"
 	},
@@ -19,6 +21,8 @@
 		"@parcel/transformer-image": "^2.0.0-rc.0",
 		"autoprefixer": "^10.3.6",
 		"cross-env": "^7.0.3",
+		"eslint": "^7.32.0",
+		"eslint-plugin-html": "^6.2.0",
 		"husky": "^7.0.2",
 		"lint-staged": "^11.1.2",
 		"parcel": "2.0.0-rc.0",
