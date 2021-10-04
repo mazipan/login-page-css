@@ -1,7 +1,9 @@
 # login-page-css
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-brightgreen.svg)](#contributors)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) ![PRs Welome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -18,22 +20,88 @@ https://mazipan.github.io/login-page-css/
 
 ## Avalaible Template
 
-| Design Source                                                              | Live Demo                                                                 | Screenshoot                         | Slicer                                      |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------- |
-| [Meg on Dribbble](https://dribbble.com/shots/3666951-Log-in-to-your-store) | [Demo](https://mazipan.github.io/login-page-css/01-shopify/index.html)    | ![](screenshoots/01-shopify.png)    | [@mazipan](https://github.com/mazipan/)     |
-| [Bukalapak Login Page](https://www.bukalapak.com/login)                    | [Demo](https://mazipan.github.io/login-page-css/02-bukalapak/index.html)  | ![](screenshoots/02-bukalapak.png)  | [@mazipan](https://github.com/mazipan/)     |
-| [Google Login Page](https://www.google.co.id/login)                        | [Demo](https://mazipan.github.io/login-page-css/03-google/index.html)     | ![](screenshoots/03-google.png)     | [@josprima](https://github.com/josprima/)   |
-| [KitaBisa Login Page](https://kitabisa.com/login)                          | [Demo](https://mazipan.github.io/login-page-css/04-kitabisa/index.html)   | ![](screenshoots/04-kitabisa.png)   | [@aslam97](https://github.com/aslam97/)     |
-| [Mailchimp Login Page](https://login.mailchimp.com/)                       | [Demo](https://mazipan.github.io/login-page-css/05-mailchimp/index.html)  | ![](screenshoots/05-mailchimp.png)  | [@mazipan](https://github.com/mazipan/)     |
-| [Tiket Login Page](https://tix.tiket.com/login)                            | [Demo](https://mazipan.github.io/login-page-css/06-tiket/index.html)      | ![](screenshoots/06-tiket.png)      | [@hardi-dev](https://github.com/hardi-dev/) |
-| [Paypal Login Page](https://www.paypal.com/en/signin)                      | [Demo](https://mazipan.github.io/login-page-css/07-paypal/index.html)     | ![](screenshoots/07-paypal.png)     | [@Fadil3](https://github.com/Fadil3/)       |
-| [Facebook Login Page](https://web.facebook.com/?_rdc=1&_rdr)               | [Demo](https://mazipan.github.io/login-page-css/08-facebook/index.html)   | ![](screenshoots/08-facebook.png)   | [@muh-hizbe](https://github.com/muh-hizbe/) |
-| [Quora Login Page](https://id.quora.com)                  | [Demo](https://mazipan.github.io/login-page-css/10-quora-indo/index.html) | ![](screenshoots/10-quora-indo.png) | [@naufaldi](https://github.com/naufaldi/)   |
-| [Dropbox Login Page](https://www.dropbox.com/login)                  | [Demo](https://mazipan.github.io/login-page-css/11-dropbox/index.html) | ![](screenshoots/11-dropbox.png) | [@naufaldi](https://github.com/naufaldi/)   |
-| [Evernote Login Page](https://www.evernote.com/Login.action)                  | [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html) | ![](screenshoots/12-evernote.png) | [@muh-hizbe](https://github.com/muh-hizbe/)   |
-| [Mangools Login Page](https://mangools.com/users/sign_in)                  | [Demo](https://mazipan.github.io/login-page-css/13-mangools/index.html) | ![](screenshoots/13-mangools.png) | [@naufaldi](https://github.com/naufaldi/)   |
-| [Uber Login Page](https://auth.uber.com/login/)                  | [Demo](https://mazipan.github.io/login-page-css/14-uber/index.html) | ![](screenshoots/14-uber.png) | [@xxidbr9](https://github.com/xxidbr9/)   |
-| [Netflix Login Page](https://www.netflix.com/in/login)                  | [Demo](https://mazipan.github.io/login-page-css/15-netflix/index.html) | ![](screenshoots/15-netflix.png) | [@SubhamKarmakar24](https://github.com/SubhamKarmakar24)   |
+### Meg on Dribbble
+
+- [Source Design](https://dribbble.com/shots/3666951-Log-in-to-your-store)
+- [Demo](https://mazipan.github.io/login-page-css/01-shopify/index.html)
+- [@mazipan](https://github.com/mazipan/)
+### Bukalapak Login Page
+
+- [Source Design](https://www.bukalapak.com/login)
+- [Demo](https://mazipan.github.io/login-page-css/02-bukalapak/index.html)
+- [@mazipan](https://github.com/mazipan/)
+
+### Google Login Page
+
+- [Source Design](https://www.google.co.id/login)
+- [Demo](https://mazipan.github.io/login-page-css/03-google/index.html)
+- [@josprima](https://github.com/josprima/)
+
+### KitaBisa Login Page
+
+- [Source Design](https://kitabisa.com/login)
+- [Demo](https://mazipan.github.io/login-page-css/04-kitabisa/index.html)
+- [@aslam97](https://github.com/aslam97/)
+
+### Mailchimp Login Page
+
+- [Source Design](https://login.mailchimp.com/)
+- [Demo](https://mazipan.github.io/login-page-css/05-mailchimp/index.html)
+- [@mazipan](https://github.com/mazipan/)
+
+### Tiket Login Page
+
+- [Source Design](https://tix.tiket.com/login)
+- [Demo](https://mazipan.github.io/login-page-css/06-tiket/index.html)
+- [@hardi-dev](https://github.com/hardi-dev/)
+
+### Paypal Login Page
+
+- [Source Design](https://www.paypal.com/en/signin)
+- [Demo](https://mazipan.github.io/login-page-css/07-paypal/index.html)
+- [@Fadil3](https://github.com/Fadil3/)
+
+### Facebook Login Page
+
+- [Source Design](https://web.facebook.com/?_rdc=1&_rdr)
+- [Demo](https://mazipan.github.io/login-page-css/08-facebook/index.html)
+- [@muh-hizbe](https://github.com/muh-hizbe/)
+
+### Quora Login Page
+
+- [Source Design](https://id.quora.com)
+- [Demo](https://mazipan.github.io/login-page-css/10-quora-indo/index.html)
+- [@naufaldi](https://github.com/naufaldi/)
+
+### Dropbox Login Page
+
+- [Source Design](https://www.dropbox.com/login)
+- [Demo](https://mazipan.github.io/login-page-css/11-dropbox/index.html)
+- [@naufaldi](https://github.com/naufaldi/)
+
+### Evernote Login Page
+
+- [Source Design](https://www.evernote.com/Login.action)
+- [Demo](https://mazipan.github.io/login-page-css/12-evernote/index.html)
+- [@muh-hizbe](https://github.com/muh-hizbe/)
+
+### Mangools Login Page
+
+- [Source Design](https://mangools.com/users/sign_in)
+- [Demo](https://mazipan.github.io/login-page-css/13-mangools/index.html)
+- [@naufaldi](https://github.com/naufaldi/)
+
+### Uber Login Page
+
+- [Source Design](https://auth.uber.com/login/)
+- [Demo](https://mazipan.github.io/login-page-css/14-uber/index.html)
+- [@xxidbr9](https://github.com/xxidbr9/)
+
+### Netflix Login Page
+
+- [Source Design](https://www.netflix.com/in/login)
+- [Demo](https://mazipan.github.io/login-page-css/15-netflix/index.html)
+- [@SubhamKarmakar24](https://github.com/SubhamKarmakar24)
 
 ## Contribution
 
