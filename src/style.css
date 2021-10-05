@@ -57,20 +57,28 @@ html {
   flex-flow: wrap;
 }
 
-.card {
-  width: 30%;
-  margin: 0.5em;
+.card-container {
+  width: 33.3%;
   text-decoration: none;
+  padding: 8px;
+}
+
+.card {
+  display: block;
   background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
+}
 
-  /* 5px rounded corners */
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  .card {
+  .card-container {
     width: 100%;
   }
 }
