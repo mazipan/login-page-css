@@ -1,0 +1,18 @@
+{
+  "eslint.options": {
+    "extensions": [".js", ".html"]
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[scss, css]": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": ["javascript", "html"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
