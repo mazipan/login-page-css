@@ -1,8 +1,8 @@
-/* 
+/*
 Developed by Bhimo Al Kautsar
 ----------------------------------------------------------
 Github: https://github.com/tentpoles
-Codepen: https://codepen.io/b-alkautsar 
+Codepen: https://codepen.io/b-alkautsar
 LinkedIn: https://www.linkedin.com/in/b-alkautsar
 Instagram: https://www.instagram.com/tentpolesman
 Direct Link: https://biolinky.co/alkautsar
@@ -10,6 +10,7 @@ Direct Link: https://biolinky.co/alkautsar
 Open Source Login Page CSS
 
 */
+
 /* CSS Master Reset */
 *,
 *::before,
@@ -57,11 +58,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .nav-container .nav .nav-logo {
@@ -103,10 +104,11 @@ body {
   padding: 22px 24px 6px 8px;
 }
 
-.main-content .login-card .input-group .input-email:focus + .absolute-element > .placeholder-text, .main-content .login-card .input-group .input-email:valid + .absolute-element > .placeholder-text {
+.main-content .login-card .input-group .input-email:focus + .absolute-element > .placeholder-text,
+.main-content .login-card .input-group .input-email:valid + .absolute-element > .placeholder-text {
   top: 6px;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
   font-size: 13px;
 }
 
@@ -121,7 +123,7 @@ body {
 .main-content .login-card .input-group .input-email:valid + .absolute-element > .btn-clear > img {
   opacity: 1;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .main-content .login-card .input-group .absolute-element .placeholder-text {
@@ -130,11 +132,11 @@ body {
   left: 9px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   pointer-events: none;
   color: #66667f;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .main-content .login-card .input-group .absolute-element .btn-clear {
@@ -147,13 +149,14 @@ body {
   height: 13px;
   opacity: 0;
   -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  transform: scale(0);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   cursor: pointer;
 }
 
-.main-content .login-card .btn-next, .main-content .login-card .btn-sign-link {
+.main-content .login-card .btn-next,
+.main-content .login-card .btn-sign-link {
   width: 100%;
   height: 40px;
   font-weight: 700;
@@ -161,17 +164,17 @@ body {
   font-size: 15px;
   border-radius: 999px;
   cursor: pointer;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main-content .login-card .btn-next {
@@ -183,12 +186,12 @@ body {
 }
 
 .main-content .login-card .btn-next:hover {
-  background: #003399;
+  background: #039;
 }
 
 .main-content .login-card .btn-sign-link {
   background: #fff;
-  color: #111111;
+  color: #111;
   margin-top: 8px;
   border-radius: 999px;
   border: 1px solid #d5d5d5;
@@ -203,15 +206,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 17px;
 }
 
 .main-content .login-card .or-legend .vertical-line {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
   height: 1px;
   background: #d5d5d5;
 }
@@ -244,21 +247,21 @@ body {
   height: 44px;
   padding: 0 24px;
   font-weight: 700;
-  color: #111111;
+  color: #111;
   letter-spacing: 0.01mm;
   border-radius: 999px;
   cursor: pointer;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 1px solid #d5d5d5;
 }
 
@@ -310,4 +313,3 @@ footer {
 footer a {
   color: #203755 !important;
 }
-/*# sourceMappingURL=style.css.map */

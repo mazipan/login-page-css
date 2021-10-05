@@ -1,18 +1,25 @@
 {
   "eslint.options": {
-    "extensions": [".js", ".html"]
+    "extensions": [".js", ".css", ".html"]
   },
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "[scss, css]": "esbenp.prettier-vscode",
+  "[scss, css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
   },
-  "eslint.validate": ["javascript", "html"],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "eslint.validate": ["javascript", "html"]
 }
