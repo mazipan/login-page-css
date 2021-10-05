@@ -103,6 +103,12 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/15-netflix/index.html)
 - [@SubhamKarmakar24](https://github.com/SubhamKarmakar24)
 
+### The Washington Post Login Page
+
+- [Source Design](https://www.washingtonpost.com/subscribe/signin/)
+- [Demo](https://mazipan.github.io/login-page-css/16-the-washington-post/index.html)
+- [@SubhamKarmakar24](https://github.com/SubhamKarmakar24)
+
 ## Contribution
 
 This project is very far from perfect, any contributions from you is very welcomed. You can help me with submit any issues you found, fixing any bugs, submit awesome login page design inspiration, or adding new login page by your self.
