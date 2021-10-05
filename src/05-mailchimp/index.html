@@ -47,14 +47,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25065548-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
 
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag('js', new Date())
+      gtag('js', new Date());
 
-      gtag('config', 'UA-25065548-2')
+      gtag('config', 'UA-25065548-2');
     </script>
   </head>
 
@@ -160,26 +160,26 @@
 
     <script>
       function a() {
-        var p = document.querySelector('#txt-password')
-        var t = document.querySelector('.label-text')
-        var ey = document.querySelector('.eye')
-        var eyo = document.querySelector('.eye-off')
-        var currType = p.getAttribute('type')
+        var p = document.querySelector('#txt-password');
+        var t = document.querySelector('.label-text');
+        var ey = document.querySelector('.eye');
+        var eyo = document.querySelector('.eye-off');
+        var currType = p.getAttribute('type');
 
         if (currType === 'password') {
-          t.innerHTML = 'Hide'
-          p.setAttribute('type', 'text')
-          ey.classList.replace('is--show', 'is--hide')
-          eyo.classList.replace('is--hide', 'is--show')
+          t.innerHTML = 'Hide';
+          p.setAttribute('type', 'text');
+          ey.classList.replace('is--show', 'is--hide');
+          eyo.classList.replace('is--hide', 'is--show');
         } else {
-          t.innerHTML = 'Show'
-          p.setAttribute('type', 'password')
-          eyo.classList.replace('is--show', 'is--hide')
-          ey.classList.replace('is--hide', 'is--show')
+          t.innerHTML = 'Show';
+          p.setAttribute('type', 'password');
+          eyo.classList.replace('is--show', 'is--hide');
+          ey.classList.replace('is--hide', 'is--show');
         }
       }
 
-      window.tooglePassword = a
+      window.tooglePassword = a;
     </script>
   </body>
 </html>

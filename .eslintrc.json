@@ -3,5 +3,10 @@
   "settings": {
     "html/indent": "+2",
     "html/report-bad-indent": "error"
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "indent": ["error", 2],
+    "no-multi-spaces": ["error"]
   }
 }

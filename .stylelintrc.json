@@ -2,7 +2,8 @@
   "extends": "stylelint-config-standard",
   "ignoreFiles": [
     "dist/*.css",
-    "src/shared/*.css"
+    "src/shared/*.css",
+    "src/**/*.html"
   ],
   "rules": {
     "no-descending-specificity": null

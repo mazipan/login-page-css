@@ -96,6 +96,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tentpoles",
+      "name": "Bhimo Alkautsar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48401918?v=4",
+      "profile": "https://biolinky.co/alkautsar",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 4,
