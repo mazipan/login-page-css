@@ -107,7 +107,7 @@ https://mazipan.github.io/login-page-css/
 
 - [Source Design](https://www.washingtonpost.com/subscribe/signin/)
 - [Demo](https://mazipan.github.io/login-page-css/16-the-washington-post/index.html)
-- [@SubhamKarmakar24](https://github.com/SubhamKarmakar24)
+- [@tentpoles](https://github.com/tentpoles)
 
 ## Contribution
 
