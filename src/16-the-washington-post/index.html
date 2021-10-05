@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Washington Post Login Template | Open Source Login Page CSS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework" />
+    <meta name="keywords" content="login page css, login template, login css, login form template" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="nav-container">
+        <nav class="nav">
+            <img src="./img/logo.png" class="nav-logo" alt="">
+        </nav>
+    </section>
+    <section class="main-content">
+        <div class="login-card">
+            <h1 class="form-header playfair-font">Sign in</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" class="input-email franklin-font" required id="input-email">
+                    <div class="absolute-element">
+                        <span class="placeholder-text">Email address</span>
+                        <span class="btn-clear" onClick="clearInput()">
+                            <img src="./img/clear-icon.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <button type="submit" class="btn-next franklin-font">Next</button>
+                <div class="btn-sign-link franklin-font">Email a sign in link</div>
+            </form>
+            <div class="or-legend">
+                <div class="vertical-line"></div>
+                <span class="or-text">or</span>
+                <div class="vertical-line"></div>
+            </div>
+            <p class="description-text">To connect a sign in method, the email must match the one on your Washington Post account.</p>
+            <div class="other-sign">
+                <div class="other-sign-list">
+                    <div class="icon-sign" style="margin-top: 5px">
+                        <img src="./img/amazon.svg" alt="">
+                    </div>
+                    <div class="title-sign franklin-font">Continue with Amazon</div>
+                </div>
+                <div class="other-sign-list">
+                    <div class="icon-sign" style="margin-top: 3px">
+                        <img src="./img/facebook.png" alt="" style="width: 19px;">
+                    </div>
+                    <div class="title-sign franklin-font">Continue with Facebook</div>
+                </div>
+                <div class="other-sign-list">
+                    <div class="icon-sign" style="margin-top: 3px">
+                        <img src="./img/google.png" alt="" style="width: 18px;">
+                    </div>
+                    <div class="title-sign franklin-font">Continue with Google</div>
+                </div>
+                <div class="other-sign-list">
+                    <div class="icon-sign">
+                        <img src="./img/apple-md.png" alt="">
+                    </div>
+                    <div class="title-sign franklin-font">Continue with Apple</div>
+                </div>
+            </div>
+            <span class="register franklin-font">Need an account? <a href="">Sign up</a></span>
+        </div>
+    </section>
+
+
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer class="franklin-font">
+        <a href="/login-page-css/"> Back to Home </a>
+        <span class="author">
+          Crafted with ❤️ by <a href="https://github.com/tentpoles" rel="noopener noreferrer" target="_blank">Bhimo Al Kautsar</a> © 2021
+        </span>
+        <a href="https://github.com/mazipan/login-page-css" rel="noopener noreferrer" target="_blank"> Github Repo </a>
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+    <script>
+        function clearInput() {
+            document.getElementById("input-email").value = "";
+        }
+    </script>
+</body>
+</html>
