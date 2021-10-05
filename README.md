@@ -107,7 +107,7 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/16-the-washington-post/index.html)
 - [@tentpoles](https://github.com/tentpoles)
 
-### The Washington Post Login Page
+### Amazon
 
 - [Source Design](Amazon's Sign-In page - varies by location)
 - [Demo](https://mazipan.github.io/login-page-css/17-amazon/index.html)
