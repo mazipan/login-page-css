@@ -1,18 +1,15 @@
-.container{
+.container-main{
     font-size:13px;
     line-height: 19px;
     color:#111;
     font-family: "Amazon Ember", Arial, sans-serif;
-}
-
-.container a{
-    text-decoration: none;
-    color:inherit; 
-}
-
-.container{
     margin-bottom:22px;
     padding:14px 18px !important;
+}
+
+.container-main a{
+    text-decoration: none;
+    color:inherit; 
 }
 
 nav{
