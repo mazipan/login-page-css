@@ -107,6 +107,12 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/16-the-washington-post/index.html)
 - [@tentpoles](https://github.com/tentpoles)
 
+### Amazon
+
+- [Source Design](Amazon's Sign-In page - varies by location)
+- [Demo](https://mazipan.github.io/login-page-css/17-amazon/index.html)
+- [@Gab990](https://github.com/Gab990)
+
 ## Contribution
 
 This project is very far from perfect, any contributions from you is very welcomed. You can help me with submit any issues you found, fixing any bugs, submit awesome login page design inspiration, or adding new login page by your self.
