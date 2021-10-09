@@ -115,7 +115,7 @@ https://mazipan.github.io/login-page-css/
 
 ### Instagram
 
-- [Source Design](Instagram's Sign-In page - varies by location)
+- [Source Design](https://www.instagram.com/accounts/login)
 - [Demo](https://mazipan.github.io/login-page-css/18-instagram/index.html)
 - [@abhj](https://github.com/abhj)
 
