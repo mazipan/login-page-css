@@ -173,12 +173,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://biolinky.co/alkautsar"><img src="https://avatars.githubusercontent.com/u/48401918?v=4?s=48" width="48px;" alt=""/><br /><sub><b>Bhimo Alkautsar</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=tentpoles" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Gab990"><img src="https://avatars.githubusercontent.com/u/62607767?v=4?s=48" width="48px;" alt=""/><br /><sub><b>Gab990</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=Gab990" title="Code">💻</a></td>
   </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/abhj"><img src="https://avatars.githubusercontent.com/u/48042655?v=4?s=48" width="48px;" alt=""/><br /><sub><b>Abhijay Mitra</b></sub></a><br /><a href="https://github.com/mazipan/login-page-css/commits?author=abhj" title="Code">💻</a></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-  </tr>
 </table>
 
 <!-- markdownlint-restore -->
