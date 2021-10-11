@@ -109,7 +109,7 @@ https://mazipan.github.io/login-page-css/
 
 ### Amazon
 
-- [Source Design](Amazon's Sign-In page - varies by location)
+- Amazon's Sign-In page varies by location
 - [Demo](https://mazipan.github.io/login-page-css/17-amazon/index.html)
 - [@Gab990](https://github.com/Gab990)
 
