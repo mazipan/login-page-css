@@ -113,6 +113,12 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/17-amazon/index.html)
 - [@Gab990](https://github.com/Gab990)
 
+### Instagram
+
+- [Source Design](https://www.instagram.com/accounts/login)
+- [Demo](https://mazipan.github.io/login-page-css/18-instagram/index.html)
+- [@abhj](https://github.com/abhj)
+
 ## Contribution
 
 This project is very far from perfect, any contributions from you is very welcomed. You can help me with submit any issues you found, fixing any bugs, submit awesome login page design inspiration, or adding new login page by your self.
