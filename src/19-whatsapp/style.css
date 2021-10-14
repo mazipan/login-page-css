@@ -1,0 +1,409 @@
+*{
+    box-sizing: border-box;
+    font-family:    Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    background-color: rgb(21, 204, 164);
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+nav .short_nav{
+    display: none;
+}
+.nav_options{
+    list-style-type: none;
+}
+.nav_options{
+    flex-basis: 47%;
+    display: inline-flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.whatsapp_logo{
+    text-align: center;
+}
+.whatsapp_logo span{
+    font-size: 20px;
+    vertical-align: 50%;
+}
+.nav_options>li{
+    display: inline-block;
+}
+nav a{
+    color: white
+}
+.dropdown_main .fa-sort-down{
+    font-size: 10px;
+    vertical-align: top;
+}
+.content_body{
+    position: relative;
+    top: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+.upper_content{
+    display: flex;
+    flex-direction: row;
+    font-family:  arial,sans-serif;
+    color: rgb(80, 78, 78);
+    line-height: 27px;
+    align-self: center;
+    justify-content: space-evenly;
+    padding-left: 8%;
+    flex-wrap: wrap;
+}
+
+.simple_intro,.mobile_image{
+    flex-basis: 37%;
+}
+.upper_content .simple_intro{
+    align-self: center;
+}
+.upper_content h2{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.upper_content p{
+    font-size: 16px;
+    color: rgb(143, 142, 142);
+}
+.simple_intro #highlight_detail{
+    color: rgb(190, 182, 182);
+    font-size: 12px;
+}
+.details_list{
+    list-style-type: none;
+    line-height: 35px;
+}
+.details_list a{
+    color: rgb(21, 204, 164);
+    font-size: 16px;
+}
+.lower_content{
+    margin: 3% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 22px;
+    color: rgb(131, 125, 125);
+}
+
+.lower_content a{
+    color: rgb(53, 139, 238);
+}
+.lower_content .lower_first{
+    text-align: center;
+    background-color: rgb(208,233,234);
+    flex-basis: 49%;
+    min-width: 339px;
+    padding: 5% 5% 0 5%;
+}
+.lower_first h2,.lower_second h2{
+    font-weight: lighter
+}
+.lower_first p{
+    font-size: 14px;
+}
+.lower_first img{
+    margin-bottom: -1%;
+}
+
+.lower_second{
+    flex-basis: 49%;
+    background-color: rgb(237,248,245);
+    text-align: center;   
+    min-width: 350px;
+}
+.lower_second p{
+    font-size: 14px;
+}
+.lower_second p:nth-child(2){
+    font-weight: bolder;
+    font-size: 11px;
+}
+.lower_second p:nth-child(4){
+    margin: 0% 10%;
+}
+.lower_second .animated_box{
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: rgb(108, 240, 211);
+    width: 230px;
+    height: 230px;
+    margin:10% auto 0 auto;
+}
+@keyframes box_movement{
+    0% {
+        left: 50px;
+        top: 500px;
+    }
+    20% {
+        
+        left: 50px;
+        top: 90px;
+    }
+    40%{
+        left: 500px;
+        top: 90px;
+    }
+    42% {
+        top: 500px;
+        left: 50px;
+    }
+    45% {
+        top: 500px;
+        left: -500px;
+    }
+    48% {
+        left: -500px;
+        top: 90px;
+        
+    }
+    70% {
+        left: 50px;
+        top: 90px;
+    }
+    100%{
+        left: 50px;
+        top: -150px;
+    }
+
+}
+#box_animation{
+    background-color: white;
+    width: 120px;
+    height: 37px;
+    color: black;
+    position: relative;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 50px;
+    animation-name: box_movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#box_animation .fas{
+    color: rgb(235, 235, 93);
+}
+#box_animation p{
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 22px;
+}
+
+.explore_button{
+    margin: 10px;
+    align-self: center;
+    margin: 6% 0;
+}
+
+.explore_button a{
+    display: inline-block;
+    color: rgb(21, 204, 164);
+    background-color: white;
+    border: 2px solid rgb(21, 204, 164);
+    border-radius: 25px;
+    padding: 22px;
+    font-weight: bolder;
+}
+.foot{
+    background-color: rgb(39,52,67);
+    position: relative;
+    top: 80px;
+    width: 101%;
+    left: -8px;
+}
+.foot ul{
+    list-style: none;
+}
+.bottom_options{
+    display: flex;
+    width: 80%;
+    line-height: 25px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.bottom_options h4{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .6);
+    font-size: 15px;
+}
+.foot a{
+    color: white;
+    font-size: 14px;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.bottom_line{
+    background-color: rgb(36, 46, 58);
+    width: 100%;
+}
+.bottom_line p{
+    display: inline-block;
+    color: rgba(255, 255, 255, .6);
+}
+.bottom_line p:nth-of-type(odd){
+    margin-left: 22%;
+}
+.bottom_line p:nth-of-type(even){
+    margin-left: 8.2%;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .nav_options{
+        flex-basis: 80%;
+    }
+    .whatsapp_logo{
+        text-align: center;
+    }
+    .whatsapp_logo span{
+        display: none;
+    }
+    .dropdown_main span{
+        display: none;
+    }
+    .bottom_options{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bottom_line p:nth-of-type(odd){
+        margin-left: 2%;
+    }
+    .bottom_line p:nth-of-type(even){
+        margin-left: 8.2%;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    @keyframes nav_box {
+        from{
+            right: -500px;
+        }
+        to {
+            right: -2px;
+        }
+    }
+    :root{
+        --nav_size: 250px;
+    }
+    nav {
+        height: var(--nav_size);
+        position: relative;
+        display: inline-block;
+        top: -10px;
+        left: -8px;
+        width: 102%;
+    }
+    nav .part_nav{
+        display: none;
+    }
+    nav .short_nav{
+        display: block;
+    }
+    .short_nav #dropdown{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .short_nav p{
+        text-align: center;
+        font-size: 40px;
+        transition: 0.2s;
+    }
+    .fa-bars{
+        font-size: 30px;
+    }
+    .short_nav li,.short_nav a{
+        color: whitesmoke;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 30px;
+        
+    }
+    .short_nav li{
+        margin-left: -25px;
+    }
+    .dropdown_main span{
+        display: inline;
+    }
+    .short_nav #dropdown:hover ul{
+        display: block;
+        position: absolute;
+        line-height: 27px;
+        right: -5px;
+        top: -20px;
+        width: 180px;
+        height: var(--nav_size);
+        background-color: transparent;
+        animation-name: nav_box;
+        animation-duration: 0.1s;
+        padding-top: 28px;
+        border-left: 5px ridge white;
+    }
+    .short_nav #dropdown:hover + p{
+        text-align: left;
+        font-size: 20px;
+        margin-left: 12px;
+    }
+    .short_nav ul{
+        list-style-type: none;
+        display: none;
+    }
+    
+    .short_nav a:hover li{
+        font-size: 17px;
+    }
+    .content_body{
+        padding: 0 0;
+        top: 10px;
+    }
+    .simple_intro,.mobile_image{
+        flex-basis: 100%;
+    }
+    .mobile_image{
+     
+        text-align: center;
+    }
+    .lower_content .lower_first{
+        
+        flex-basis: 100%;
+    }
+    .lower_second{
+        flex-basis: 100%;
+    }
+    .bottom_options{
+        flex-wrap: wrap;
+        width: 50%
+    }
+    .bottom_line{
+        padding: 0.007% 0;
+    }
+    .bottom_line p{
+        display: block;
+    }
+    .bottom_line p:nth-of-type(odd){
+        margin-left: 2%;
+    }
+    .bottom_line p:nth-of-type(even){
+        margin-left: 2%;
+    }   
+}
