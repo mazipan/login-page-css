@@ -125,12 +125,6 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/19-whatsapp/index.html)
 - [@abhj](https://github.com/abhj)
 
-### Twitter Login Page
-
-- [Source Design](https://twitter.com)
-- [Demo](https://mazipan.github.io/login-page-css/20-twitter/index.html)
-- [@abhj](https://github.com/abhj)
-
 ### Github Login Page
 
 - [Source Design](https://github.com)
