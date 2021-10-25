@@ -1,7 +1,7 @@
 # login-page-css
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-brightgreen.svg)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-brightgreen.svg)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Deploy](https://github.com/mazipan/login-page-css/workflows/Deploy/badge.svg?branch=master) ![PRs Welome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
