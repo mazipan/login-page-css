@@ -131,7 +131,7 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/20-twitter/index.html)
 - [@abhj](https://github.com/abhj)
 
-### Twitter Login Page
+### Pinterest Login Page
 
 - [Source Design](https://www.pinterest.com/login/)
 - [Demo](https://mazipan.github.io/login-page-css/21-Pinterest/index.html)
