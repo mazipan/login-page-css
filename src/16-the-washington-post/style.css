@@ -19,7 +19,6 @@ Open Source Login Page CSS
   padding: 0;
   border: 0;
   outline: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: inherit;
   font-style: inherit;
@@ -55,7 +54,7 @@ body {
 
 .nav-container .nav {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -71,7 +70,7 @@ body {
 
 .main-content {
   width: 100%;
-  padding: 59px 16px 158px 16px;
+  padding: 59px 16px 158px;
 }
 
 .main-content .login-card {
@@ -107,7 +106,6 @@ body {
 .main-content .login-card .input-group .input-email:focus + .absolute-element > .placeholder-text,
 .main-content .login-card .input-group .input-email:valid + .absolute-element > .placeholder-text {
   top: 6px;
-  -webkit-transform: translateY(0);
   transform: translateY(0);
   font-size: 13px;
 }
@@ -122,7 +120,6 @@ body {
 
 .main-content .login-card .input-group .input-email:valid + .absolute-element > .btn-clear > img {
   opacity: 1;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 
@@ -131,11 +128,9 @@ body {
   font-size: 16px;
   left: 9px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   pointer-events: none;
   color: #66667f;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
@@ -148,9 +143,7 @@ body {
 .main-content .login-card .input-group .absolute-element .btn-clear img {
   height: 13px;
   opacity: 0;
-  -webkit-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
 }
@@ -164,10 +157,9 @@ body {
   font-size: 15px;
   border-radius: 999px;
   cursor: pointer;
-  -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -203,7 +195,7 @@ body {
 
 .main-content .login-card .or-legend {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -213,7 +205,6 @@ body {
 
 .main-content .login-card .or-legend .vertical-line {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 100%;
   flex: 1 1 100%;
   height: 1px;
   background: #d5d5d5;
@@ -234,7 +225,7 @@ body {
   text-align: center;
   letter-spacing: 0.1mm;
   line-height: 4.3mm;
-  margin: 16px auto 0 auto;
+  margin: 16px auto 0;
 }
 
 .main-content .login-card .other-sign {
@@ -251,10 +242,9 @@ body {
   letter-spacing: 0.01mm;
   border-radius: 999px;
   cursor: pointer;
-  -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -281,7 +271,7 @@ body {
 
 .main-content .login-card .register {
   margin-top: 24px;
-  padding: 0 40px 30px 40px;
+  padding: 0 40px 30px;
   display: block;
   text-align: center;
   font-size: 15px;
@@ -293,15 +283,15 @@ body {
   color: #2a2a2a;
 }
 
-@media (max-width: 648px) {
+@media (width <= 648px) {
   .main-content .login-card {
     width: 100%;
   }
 }
 
-@media (max-width: 648px) {
+@media (width <= 648px) {
   .main-content {
-    padding: 16px 16px 118px 16px;
+    padding: 16px 16px 118px;
   }
 }
 

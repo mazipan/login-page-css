@@ -1,8 +1,7 @@
 html {
   font-size: 14px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -92,7 +91,7 @@ a {
 }
 
 .form-wrapper form {
-  padding: 24px 0 0 0;
+  padding: 24px 0 0;
 }
 
 .field {
@@ -155,7 +154,7 @@ a {
 }
 
 /* For Mobile View */
-@media (max-width: 520px) {
+@media (width <= 520px) {
   .form-wrapper {
     border: none;
     padding: 48px 20px 36px;

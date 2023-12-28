@@ -3,7 +3,6 @@
   padding: 0;
   border: none;
   outline: none;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -15,17 +14,16 @@ body {
   line-height: 1.4;
   height: 100vh;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .flex {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
 }
 
@@ -54,7 +52,6 @@ body {
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -65,20 +62,19 @@ input {
   padding: 0.188rem 0.5rem;
   border: 1px solid #e2e2e2;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
-  box-shadow: inset 0 1px 1px rgba(200, 200, 200, 0.3);
+  box-shadow: inset 0 1px 1px rgb(200 200 200 / 30%);
   width: 100%;
 }
 
-input::-webkit-input-placeholder {
+input::input-placeholder {
   color: #949494;
 }
 
-input:-ms-input-placeholder {
+input:input-placeholder {
   color: #949494;
 }
 
-input::-ms-input-placeholder {
+input::input-placeholder {
   color: #949494;
 }
 
@@ -141,8 +137,7 @@ input::placeholder {
 .login__submit {
   background-color: #3e78ad;
   border: 1px solid #3e78ad;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
-  box-shadow: 0 1px 1px 0 rgba(200, 200, 200, 0.6);
+  box-shadow: 0 1px 1px 0 rgb(200 200 200 / 60%);
   padding: 0.25rem 0.438rem;
   color: #fff;
   font-weight: 500;
@@ -162,12 +157,10 @@ input::placeholder {
 
 .modal-quora {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 650px;
   flex: 0 0 650px;
   margin: 0 auto;
   margin-bottom: 5.5rem;
   border: 1px solid #e2e2e2;
-  -webkit-box-shadow: 0 0 5px #888;
   box-shadow: 0 0 5px #888;
 }
 
@@ -204,16 +197,13 @@ input::placeholder {
 }
 
 .btn {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding: 0.75rem 0.5rem 0.75rem 2rem;
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
   border-radius: 3px;
   margin-bottom: 1rem;
   position: relative;
-  padding-left: 2rem;
-  padding-right: 0.5rem;
 }
 
 .btn:hover {

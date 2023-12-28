@@ -91,7 +91,7 @@ nav {
   position: relative;
   overflow: hidden;
   height: 29px;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
   border-radius: 2px;
   background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
 }
@@ -157,7 +157,7 @@ input[type="email"] {
   border: 1px solid #a6a6a6;
   border-top-color: #949494;
   border-radius: 3px;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
   outline: 0;
   transition: all 100ms linear;
 }
@@ -186,7 +186,7 @@ input[type="email"]:focus {
 }
 
 .submit-button-inner {
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
   background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
   display: block;
   position: relative;
@@ -238,14 +238,14 @@ input[type="email"]:focus {
 .footer-divider {
   height: 44px;
   margin-bottom: 18px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.03) 3px, transparent);
+  background: linear-gradient(to bottom, rgb(0 0 0 / 14%), rgb(0 0 0 / 3%) 3px, transparent);
 }
 
 .footer-divider::after {
   display: block;
   width: 100%;
   height: 44px;
-  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+  background: linear-gradient(to right, #fff, rgb(255 255 255 / 0%), #fff);
   content: "";
 }
 
@@ -272,7 +272,7 @@ footer {
   background: #fff;
   bottom: 0;
   left: 0;
-  box-shadow: 1px -2px 5px 1px rgb(0, 0, 0, 0.2);
+  box-shadow: 1px -2px 5px 1px rgb(0 0 0 / 20%);
   display: flex;
   justify-content: space-between;
   padding: 1em;

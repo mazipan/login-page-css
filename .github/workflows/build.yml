@@ -12,25 +12,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '20.x'
 
       - name: Install locked dependencies
         run: yarn install
 
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: cache-deps
         with:
+          key: ${{ runner.os }}-yarn-store-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-store-
           path: '.'
-          key: ${{ github.sha }}
 
   lint:
     if: github.repository == 'mazipan/login-page-css'
@@ -39,16 +41,18 @@ jobs:
     needs: install-deps
     steps:
       - name: Restore cached dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: restore-deps
         with:
+          key: ${{ runner.os }}-yarn-store-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-store-
           path: '.'
-          key: ${{ github.sha }}
 
-      - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '20.x'
 
       - name: Lint Code
         run: yarn lint
@@ -60,16 +64,18 @@ jobs:
     needs: install-deps
     steps:
       - name: Restore cached dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         id: restore-deps
         with:
+          key: ${{ runner.os }}-yarn-store-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-store-
           path: '.'
-          key: ${{ github.sha }}
 
-      - name: Setup Node.js 14.x
-        uses: actions/setup-node@v1
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '20.x'
 
       - name: Build Project
         run: yarn build

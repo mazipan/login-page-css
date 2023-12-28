@@ -97,7 +97,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #6a6a6a;
 }
 
@@ -113,14 +113,11 @@ body::before {
   content: "";
   background-color: #f4fdff;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   opacity: 0.97;
 }
 
-@media only screen and (max-width: 709px) {
+@media only screen and (width <= 709px) {
   body {
     background: none;
   }
@@ -189,7 +186,7 @@ body::before {
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 709px) {
+@media only screen and (width <= 709px) {
   .main {
     padding-bottom: 100px;
   }
@@ -198,18 +195,18 @@ body::before {
 .card {
   position: relative;
   max-width: 512px;
-  margin: 30px auto 60px auto;
+  margin: 30px auto 60px;
   background-color: white;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
   padding: 62.12px 99px 48px;
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 709px) {
+@media only screen and (width <= 709px) {
   .mobile-device {
     width: 314px;
     margin: 0 auto;
-    padding: 28px 0 0 0;
+    padding: 28px 0 0;
     box-shadow: none;
   }
 
@@ -219,7 +216,7 @@ body::before {
     left: 0;
     transform: none;
     max-width: 512px;
-    margin: 0 0;
+    margin: 0;
     background-color: white;
     box-shadow: none;
     padding: 0;
@@ -237,13 +234,13 @@ body::before {
 
 .heading .tagline {
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 44px;
   color: #333;
 }
 
 .login-form {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .login-form .OAuth .login-google {
@@ -267,12 +264,12 @@ body::before {
 
 .login-form .OAuth .btn-submit {
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-@media only screen and (max-width: 709px) {
+@media only screen and (width <= 709px) {
   .login-form {
-    margin: 10px 10px;
+    margin: 10px;
   }
 
   .login-form .btn-submit {
@@ -291,17 +288,16 @@ body::before {
   padding: 12px 16px;
 }
 
-.form__input::-webkit-input-placeholder {
+.form__input::input-placeholder {
   color: #878a91;
 }
 
-.form__input:focus::-webkit-input-placeholder {
+.form__input:focus::input-placeholder {
   color: #a8abb1;
 }
 
 .form__input:focus {
   outline: none !important;
-  -webkit-box-shadow: 0 0 0 1px #dff2e6, 0 0 4px 0 #dff2e6;
   box-shadow: 0 0 0 1px #dff2e6, 0 0 4px 0 #dff2e6;
 }
 
@@ -314,12 +310,12 @@ body::before {
 }
 
 .form__line {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgb(0 0 0 / 20%);
   width: 50%;
 }
 
 .form__line--caption {
-  margin: 0 0.5rem 0.2rem 0.5rem;
+  margin: 0 0.5rem 0.2rem;
 }
 
 .remember-me {
@@ -346,12 +342,12 @@ body::before {
 
 .footer-wrapper .footer-item {
   color: #ababab;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 11px;
   padding: 2px 15px;
 }
 
-@media only screen and (max-width: 709px) {
+@media only screen and (width <= 709px) {
   .footer-wrapper .footer-item {
     display: block;
     border: none;

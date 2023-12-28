@@ -1,8 +1,7 @@
 html {
   font-size: 14px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -46,7 +45,7 @@ a:focus {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width <= 480px) {
   .form-wrapper {
     width: 90%;
   }
@@ -80,7 +79,6 @@ a:focus {
 
 .input:focus {
   border-color: #4e9bf6;
-  -webkit-box-shadow: 0 0 4px 0 #4e9bf6;
   box-shadow: 0 0 4px 0 #4e9bf6;
   position: relative;
   z-index: 5;
@@ -90,7 +88,7 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5em 0 1.5em 0;
+  margin: 0.5em 0 1.5em;
 }
 
 .btn-submit {
@@ -163,9 +161,6 @@ a:focus {
   left: 18px;
   width: 24px;
   height: 24px;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 

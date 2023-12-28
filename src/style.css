@@ -1,12 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   font-size: 16px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: rgb(242, 245, 247);
+  background-color: rgb(242 245 247);
   color: #4d5068;
   font-family: 'Open Sans', sans-serif;
 }
@@ -62,14 +65,14 @@ html {
   margin: 0.5em;
   text-decoration: none;
   background: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   transition: 0.3s;
   border-radius: 5px;
 
   /* 5px rounded corners */
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (width <= 640px) {
   .card {
     width: 100%;
   }
@@ -77,7 +80,7 @@ html {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
 }
 
 /* Add some padding inside the card container */

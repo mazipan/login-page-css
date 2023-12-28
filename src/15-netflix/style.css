@@ -2,9 +2,6 @@ body {
   margin: 0;
   padding: 0;
   background: url("./img-back.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -17,12 +14,12 @@ body {
 }
 
 .upper {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(0 0 0 / 60%);
   padding-bottom: 100px;
 }
 
 .bottom {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(0 0 0 / 85%);
   color: #757575;
 }
 
@@ -35,9 +32,8 @@ body {
 .bottom-flex {
   display: flex;
   flex-wrap: wrap;
-  padding: 15px 0 0 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  padding: 15px 0 0;
+  margin-block: 0 0;
 }
 
 .bottom-flex li {
@@ -62,9 +58,9 @@ body {
 .login {
   margin: 0 auto;
   width: 310px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(0 0 0 / 60%);
   border-radius: 5px;
-  padding: 30px 70px 143px 70px;
+  padding: 30px 70px 143px;
 }
 
 .login h1 {
@@ -87,12 +83,12 @@ body {
   text-indent: 18px;
 }
 
-.input-text input::-webkit-input-placeholder {
+.input-text input::input-placeholder {
   font-size: 1rem;
   color: #999;
 }
 
-.input-text input::-moz-placeholder {
+.input-text input::placeholder {
   font-size: 1rem;
   color: #999;
   text-indent: 40px;
@@ -155,7 +151,7 @@ body {
 }
 
 .login-face {
-  margin: 50px 0 15px 0;
+  margin: 50px 0 15px;
   vertical-align: middle;
   color: #8c8c8c;
 }
@@ -196,8 +192,7 @@ body {
 }
 
 .select-language {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBoZWlnaHQ9IjUwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNTAiIHdpZHRoPSI1MCIvPjxwb2x5Z29uIHN0cm9rZT0id2hpdGUiICBwb2ludHM9IjQ3LjI1LDE1IDQ1LjE2NCwxMi45MTQgMjUsMzMuMDc4IDQuODM2LDEyLjkxNCAyLjc1LDE1IDI1LDM3LjI1ICIvPjwvc3ZnPg==");
   background-size: 12px;
   background-position-x: calc(100% - 7px);
@@ -206,7 +201,7 @@ body {
   background-color: #000;
   color: #757575;
   padding: 14px 20px 14px 14px;
-  margin: 30px 0 40px 0;
+  margin: 30px 0 40px;
   font-size: 0.9rem;
   min-height: 40px;
   border: 1px solid #333;
@@ -216,7 +211,7 @@ body {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (width <= 740px) {
   body {
     background: black;
   }
@@ -226,7 +221,7 @@ body {
   }
 
   .login {
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     width: 100%;
   }
 
@@ -248,7 +243,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .list-bottom {
     width: 50%;
   }

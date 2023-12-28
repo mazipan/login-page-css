@@ -15,27 +15,25 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^13.2.0",
-		"@commitlint/config-conventional": "^13.2.0",
-		"@fullhuman/postcss-purgecss": "^4.0.3",
-		"@parcel/transformer-image": "^2.0.0-rc.0",
-		"autoprefixer": "^10.3.6",
+		"@commitlint/cli": "^18.4.3",
+		"@commitlint/config-conventional": "^18.4.3",
+		"@parcel/transformer-image": "^2.10.3",
+		"autoprefixer": "^10.4.16",
 		"cross-env": "^7.0.3",
-		"eslint": "^7.32.0",
-		"eslint-plugin-html": "^6.2.0",
-		"husky": "^7.0.2",
-		"lint-staged": "^11.1.2",
-		"parcel": "2.0.0-rc.0",
-		"parcel-plugin-static-files-copy": "^2.6.0",
-		"postcss-modules": "^4.2.2",
-		"prettier": "^2.4.1",
-		"rimraf": "^3.0.2",
-		"sass": "^1.42.1",
-		"stylelint": "^13.13.1",
-		"stylelint-config-standard": "^22.0.0"
-	},
-	"resolutions": {
-		"@babel/preset-env": "7.13.8"
+		"eslint": "^8.56.0",
+		"eslint-plugin-html": "^7.1.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^15.2.0",
+		"parcel": "^2.10.3",
+		"postcss": "^8.4.32",
+		"postcss-modules": "^6.0.0",
+		"prettier": "^3.1.1",
+		"prettier-plugin-tailwindcss": "^0.5.10",
+		"rimraf": "^5.0.5",
+		"sass": "^1.69.5",
+		"stylelint": "^16.1.0",
+		"stylelint-config-standard": "^36.0.0",
+		"tailwindcss": "^3.4.0"
 	},
 	"staticFiles": {
 		"staticPath": [

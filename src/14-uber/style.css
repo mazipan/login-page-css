@@ -3,7 +3,7 @@
 :root,
 body,
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 12px;
   margin: 0;
   padding: 0;
@@ -18,9 +18,9 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-:root ::-moz-selection,
-body ::-moz-selection,
-html ::-moz-selection {
+:root ::selection,
+body ::selection,
+html ::selection {
   background-color: #11939a;
   color: #f1f1f1;
   padding: 0;
@@ -39,7 +39,7 @@ html ::selection {
   padding: 0 3rem;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   .container {
     padding: 0 1rem;
   }
@@ -52,7 +52,7 @@ nav .funnel {
   background-size: 5rem;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   nav .funnel {
     background: #000 !important;
   }
@@ -64,14 +64,14 @@ nav .logo {
   width: 100%;
   height: 90px;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   nav .logo {
     display: none;
   }
@@ -86,7 +86,7 @@ main {
   margin-top: 100px;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   main {
     margin-top: 2rem;
   }
@@ -98,19 +98,19 @@ main .login-card {
   width: 44rem;
 }
 
-@media (max-height: 752px), screen and (min-width: 770px) {
+@media (height <= 752px), screen and (width >= 770px) {
   main .login-card {
     height: 23rem !important;
   }
 }
 
-@media (min-height: 753px), screen and (max-width: 770px) {
+@media (height >= 753px), screen and (width <= 770px) {
   main .login-card {
     height: calc(100vh - 100px - 3.33rem);
   }
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   main .login-card {
     padding: 0;
     width: 100%;
@@ -137,18 +137,14 @@ main .login-card__input {
   display: inline-block;
   border: 1px solid #e5e5e4;
   color: #000;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   outline: none;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   padding: 1.25rem 1.5rem;
   font-size: 1.2rem;
   background: #fff;
   margin-bottom: 2rem;
-  -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
 }
 
@@ -163,7 +159,7 @@ main .login-card__input:focus {
 
 main .login-card__btn {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -176,24 +172,19 @@ main .login-card__btn {
   color: #fff;
   font-weight: 600;
   cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   outline: none;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   padding: 1.25rem 1.5rem;
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
 }
 
 main .login-card__btn img {
   width: 1.5rem;
   margin-right: 0.6rem;
-  -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
 }
 
@@ -208,7 +199,6 @@ main .login-card__btn:hover img {
 main .login-card__ask .alink {
   cursor: pointer;
   color: #11939a;
-  -webkit-transition: all 0.4s ease !important;
   transition: all 0.4s ease !important;
 }
 
@@ -222,7 +212,7 @@ main .login-card__ask .alink:hover {
   font-weight: 300;
 }
 
-@media screen and (max-width: 770px), screen and (min-height: 752px) {
+@media screen and (width <= 770px), screen and (height >= 752px) {
   .main_footer {
     position: absolute;
     bottom: 0;
@@ -239,7 +229,7 @@ main .login-card__ask .alink:hover {
   height: 15rem;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (width <= 770px) {
   .main_footer .banner_img {
     width: 100%;
     background-size: 200vw;
@@ -261,7 +251,7 @@ main .login-card__ask .alink:hover {
   padding: 2rem 0;
 }
 
-@media (max-width: 770px) {
+@media (width <= 770px) {
   .main_footer *.footer__logo {
     color: #000;
   }
@@ -269,13 +259,13 @@ main .login-card__ask .alink:hover {
 
 .main_footer *.footer__devider {
   width: 100%;
-  border-bottom: solid rgba(241, 241, 241, 0.5) 0.5px;
+  border-bottom: solid rgb(241 241 241 / 50%) 0.5px;
 }
 
 .main_footer *.footer__content {
   padding: 2rem 0;
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
   font-size: 0.85rem;
   -webkit-box-pack: justify;

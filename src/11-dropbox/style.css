@@ -1,5 +1,4 @@
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 
 body {
   background-color: #fff;
-  font-family: 'Questrial', 'Open Sans', sans-serif;
+  font-family: Questrial, 'Open Sans', sans-serif;
   font-size: 13px;
   color: #000;
   font-weight: normal;
@@ -50,14 +49,13 @@ ul {
 
 .flex {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
   display: flex;
 }
 
 .flex-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -108,7 +106,6 @@ ul {
 
 .dropbox-navbar {
   border-bottom: 1px solid #d0d4d9;
-  -webkit-box-shadow: 0 1px 1px #d0d4d9;
   box-shadow: 0 1px 1px #d0d4d9;
   background-color: #fff;
   position: fixed;
@@ -117,10 +114,9 @@ ul {
   z-index: 10;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-navbar {
     position: relative;
-    -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
     background-color: #f6f9fc;
@@ -131,13 +127,13 @@ ul {
   padding: 1.25rem 6rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-navbar__container {
     padding: 1.25rem 0;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-navbar__container {
     padding: 1.25rem 2rem;
   }
@@ -160,7 +156,7 @@ ul {
   border-color: #0052d9;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-navbar__button {
     display: none;
   }
@@ -179,7 +175,7 @@ ul {
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-navbar__link {
     display: none;
   }
@@ -196,12 +192,12 @@ ul {
   padding: 1.25rem 6rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-content {
     border-bottom: 1px solid #d0d4d9;
     background-color: #f6f9fc;
     margin: 0;
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 0;
   }
 }
 
@@ -209,7 +205,7 @@ ul {
   width: 70%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-content__img {
     display: none;
   }
@@ -224,7 +220,7 @@ ul {
   font-weight: 600;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-content__form {
     padding: 0;
     margin: 0 auto;
@@ -232,7 +228,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-content__form {
     width: 90%;
     min-width: 250px;
@@ -245,7 +241,7 @@ form {
   margin-right: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   form {
     margin: 0;
     max-width: 400px;
@@ -259,7 +255,7 @@ form {
   margin-bottom: 1.75rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__header {
     display: none;
   }
@@ -272,7 +268,7 @@ form {
 }
 
 .form__btn-social {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
   margin: 0.625rem 0;
@@ -280,10 +276,10 @@ form {
   padding: 0.625rem;
   color: #fff;
   border-radius: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0 0 0 / 10%);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__btn-social {
     height: 50px;
   }
@@ -293,7 +289,7 @@ form {
   background-color: #2265d4;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__btn-social--google {
     background-color: #1a73e8;
   }
@@ -304,14 +300,14 @@ form {
 }
 
 .form__border {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgb(0 0 0 / 10%);
   padding: 0.625rem;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__border {
     height: 50px;
   }
@@ -321,18 +317,17 @@ form {
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
   order: 3;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   margin-top: 1rem;
 }
 
 .form__line {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgb(0 0 0 / 20%);
   width: 50%;
 }
 
 .form__line--caption {
-  margin: 0 0.5rem 0.2rem 0.5rem;
+  margin: 0 0.5rem 0.2rem;
 }
 
 .form__input-group {
@@ -342,7 +337,7 @@ form {
 }
 
 .form__input {
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid rgb(0 0 0 / 15%);
   padding: 5px 6px;
   width: 100%;
   margin: 0.75rem 0;
@@ -351,7 +346,7 @@ form {
   min-height: 2.125rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__input {
     margin: 0;
     padding: 1.25rem 1rem;
@@ -359,19 +354,19 @@ form {
   }
 }
 
-.form__input::-webkit-input-placeholder {
+.form__input::input-placeholder {
   font-size: 1rem;
   color: #737373;
   padding: 8px;
 }
 
-.form__input:-ms-input-placeholder {
+.form__input:input-placeholder {
   font-size: 1rem;
   color: #737373;
   padding: 8px;
 }
 
-.form__input::-ms-input-placeholder {
+.form__input::input-placeholder {
   font-size: 1rem;
   color: #737373;
   padding: 8px;
@@ -390,14 +385,13 @@ form {
   order: 5;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__submit {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -406,7 +400,7 @@ form {
 }
 
 .form__btn-submit {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   border: 1px solid #0c6ebe;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#168add), to(#2265d4));
   background-image: linear-gradient(#168add, #2265d4);
@@ -417,7 +411,7 @@ form {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__btn-submit {
     width: 100%;
     margin-top: 1rem;
@@ -437,7 +431,7 @@ form {
   margin-left: 0.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__label {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -453,7 +447,7 @@ form {
   order: 6;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__forgot {
     font-size: 0.875rem;
     -webkit-box-ordinal-group: 8;
@@ -466,16 +460,16 @@ form {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__mobile {
     display: -webkit-box;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     font-size: 0.875rem;
     -webkit-box-ordinal-group: 9;
     -ms-flex-order: 8;
     order: 8;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 1rem;
   }
 }
 
@@ -493,7 +487,7 @@ form {
   order: 7;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .form__notes {
     -webkit-box-ordinal-group: 6;
     -ms-flex-order: 5;
@@ -512,13 +506,13 @@ form {
   margin-bottom: 7.5rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (width <= 500px) {
   .dropbox-footer {
     display: none;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-footer {
     padding: 0;
   }
@@ -528,13 +522,13 @@ form {
   padding: 0 2rem;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-footer__container {
     padding: 0 0.5rem;
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .dropbox-footer__menu {
     width: 70%;
   }

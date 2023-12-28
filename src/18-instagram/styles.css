@@ -67,7 +67,7 @@ ul { list-style: none; }
     .register,
     form { padding: 30px 20px; }
 
-    .login-with-fb { padding: 30px 20px 20px 20px; }
+    .login-with-fb { padding: 30px 20px 20px; }
 
     form .sr-only { display: none; }
 
@@ -77,7 +77,7 @@ ul { list-style: none; }
         border-radius: 3px;
         color: #808080;
         margin-bottom: 8px;
-        padding: 10px 10px;
+        padding: 10px;
         width: 100%;
     }
 
@@ -133,6 +133,7 @@ ul { list-style: none; }
      * Register section
      */
     .register * { font-size: 14px; }
+
     .register a { 
         color: #0095f6;
         font-weight: bold;
@@ -145,6 +146,7 @@ ul { list-style: none; }
      */
     .app-download { padding: 15px; }
     .app-download p { padding: 10px 0; }
+
     .app-download img { 
         height: 40px; 
         margin: 0 5px;
@@ -154,13 +156,14 @@ ul { list-style: none; }
      * Footer
      */
     .foot {
-        margin: 0 auto 30px auto;
+        margin: 0 auto 30px;
         max-width: 935px;
     }
     .foot ul { margin-bottom: 20px; }
     .foot ul li { margin: 0 10px 10px; } 
     .foot ul li a { color: #385185; }
     .foot .copyright { color: #808080; }
+
     .foot ul li a,
     .foot .copyright { 
         font-weight: bold;
@@ -173,8 +176,9 @@ ul { list-style: none; }
      * Media queries
      */
 
-    @media screen and (max-width: 767px) {
-        main { margin: 30px auto 50px auto; }
+    @media screen and (width <= 767px) {
+        main { margin: 30px auto 50px; }
+
         .foot .copyright,
         .foot ul li a { font-size: 13px; }
     }

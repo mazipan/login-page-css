@@ -16,10 +16,18 @@
     }
   },
   "[html]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": false
+      "source.fixAll.eslint": "never"
     }
   },
-  "eslint.validate": ["javascript", "html"]
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
+  "[javascript][scss, css]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  }
 }

@@ -3,12 +3,11 @@ html {
 
   /* If you set different base font, you might need more tweak */
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: rgb(242, 245, 247);
+  background-color: rgb(242 245 247);
   color: #4d5068;
   font-family: 'Open Sans', sans-serif;
 }
@@ -34,7 +33,7 @@ html {
   background-size: 1100px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (width <= 640px) {
   .content-body {
     background-position-y: top;
     background-size: 250px;
@@ -49,13 +48,13 @@ html {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (width <= 640px) {
   .form-wrapper {
     margin-top: 200px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width <= 480px) {
   .form-wrapper {
     width: 90%;
   }
@@ -89,7 +88,7 @@ html {
 
 .field-group {
   border: 0;
-  padding: 0.35em 0 0.625em 0;
+  padding: 0.35em 0 0.625em;
   text-align: left;
   position: relative;
 }
