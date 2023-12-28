@@ -131,6 +131,12 @@ https://mazipan.github.io/login-page-css/
 - [Demo](https://mazipan.github.io/login-page-css/20-twitter/index.html)
 - [@abhj](https://github.com/abhj)
 
+### Pinterest Login Page
+
+- [Source Design](https://www.pinterest.com/login/)
+- [Demo](https://mazipan.github.io/login-page-css/21-Pinterest/index.html)
+- [@ismaila5623](https://github.com/ismaila5623)
+
 ## Contribution
 
 This project is very far from perfect, any contributions from you is very welcomed. You can help me with submit any issues you found, fixing any bugs, submit awesome login page design inspiration, or adding new login page by your self.
